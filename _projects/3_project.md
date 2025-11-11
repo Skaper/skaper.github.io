@@ -97,6 +97,7 @@ Inherited 12 independent training simulators with disparate codebases and archit
 <div class="col-sm mt-3 mt-md-0">
   {% include figure.liquid loading="eager" path="assets/img/projects/promvr/2.jpg" title="3" class="img-fluid rounded z-depth-1" %}
 </div>
+
 ### Technical Leadership
 
 - Conducted code reviews and mentored development team
