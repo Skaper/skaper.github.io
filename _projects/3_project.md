@@ -111,5 +111,3 @@ Inherited 12 independent training simulators with disparate codebases and archit
 - First Aid on Production Sites
 - Occupational Safety Requirements
 - Construction Site Safety Rules
-
-{% endraw %}
