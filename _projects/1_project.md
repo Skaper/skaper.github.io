@@ -55,13 +55,10 @@ integrated with DOTS/ECS for NPC drivers and autonomous vehicles. Implemented
 NavMesh-based navigation with gesture recognition for marshalling interactions,
 enabling realistic coordination between player and AI-controlled ground crew.
 
-<div class="ratio ratio-16x9 mx-auto my-4 w-100">
+<div class="project-video">
   <iframe
-    width="720" 
-    height="400"
     src="https://www.youtube.com/embed/rZlSJ9mKoPk?si=dEy9aoEdouqQug6x"
     title="YouTube video player"
-    frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen
@@ -79,13 +76,10 @@ conveyor systems and custom IK solutions
 **Beltloader Integration** - AI autopilot systems and automated equipment
 operations
 
-<div class="ratio ratio-16x9 mx-auto my-4 w-100">
+<div class="project-video">
   <iframe
-    width="720" 
-    height="400"
     src="https://www.youtube.com/embed/f8iADe1KS4k?si=jwY4P6LXG-s8PVUh"
     title="YouTube video player"
-    frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen

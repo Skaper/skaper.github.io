@@ -42,13 +42,10 @@ seemingly impossible.
 **Industry Gap:** All competing VR training solutions required expensive PCVR
 setups. No standalone VR application had ever achieved native wheel support.
 
-<div class="ratio ratio-16x9 mx-auto my-4 w-100">
+<div class="project-video">
   <iframe
-    width="720" 
-    height="400"
     src="https://www.youtube.com/embed/Jdm898xkbGw?si=RUXaqA6iZ6qntQRf"
     title="YouTube video player"
-    frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen
@@ -77,8 +74,9 @@ setups. No standalone VR application had ever achieved native wheel support.
   System, enabling seamless integration into any Unity project
 
 ### Architecture:
+
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/aviar/diagram.png" title="3" class="img-fluid rounded z-depth-1" %}
+  {% include figure.liquid loading="eager" path="assets/img/projects/aviar/diagram.png" title="3" class="img-fluid rounded z-depth-1" %}
 </div>
 
 ### Impact

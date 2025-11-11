@@ -1,6 +1,7 @@
 ---
 layout: page
 title: VR Roguelike Tower Defense Shooter
+description: Solo Unity Developer
 img: assets/img/projects/ultralab/cover.png
 importance: 4
 category: work
@@ -25,10 +26,10 @@ Unity, C# (DOTS/ECS), Burst Compiler, C# Job System, FMOD, Meta XR SDK, OpenXR, 
     {% include figure.liquid loading="eager" path="assets/img/projects/ultralab/1.png" title="1" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/ultralab/3.png" title="2" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/ultralab/2.png" title="2" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/ultralab/4.png" title="3" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/ultralab/3.png" title="3" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -37,13 +38,10 @@ Unity, C# (DOTS/ECS), Burst Compiler, C# Job System, FMOD, Meta XR SDK, OpenXR, 
 1 billion years in the future, a robot collector scours space for ancient technologies. Navigate cosmic junkyards defended by swarms of enemy drones in this fast-paced VR shooter with procedural generation and permadeath mechanics.
 Gameplay: Sci-fi bullet-hell tower defense featuring swarm-based enemy AI, 12 fantasy weapons with unique mechanics, procedural arena generation, and dual progression systems (session-based and meta-progression).
 
-<div class="ratio ratio-16x9 mx-auto my-4 w-100">
+<div class="project-video">
   <iframe
-    width="720" 
-    height="400"
     src="https://www.youtube.com/embed/9rwowVkGjkE?si=TtWQ1skW7NP3PfEI"
     title="YouTube video player"
-    frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen
@@ -70,6 +68,7 @@ Gameplay: Sci-fi bullet-hell tower defense featuring swarm-based enemy AI, 12 fa
 - Employed asynchronous scene streaming to manage memory footprint across procedurally generated arenas
 
 ### Weapon Systems & Combat
+
 - Designed 12 distinct weapon types with unique VR interaction models: laser beams, ballistic projectiles, energy weapons, grenades, explosive ordnance, gravity traps, and black hole generators
 - Each weapon featured custom physics behaviors, visual effects, and tactical advantages against swarm patterns
 

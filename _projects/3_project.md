@@ -17,13 +17,10 @@ Led development of B2B VR training platform serving major Russian oil & gas comp
 ### Tech Stack
 Unity, C#, Zenject, UniRx, OpenXR, Meta XR SDK, PICO SDK, Bitrix24 API, JSON-based configuration, Custom CI/CD
 
-<div class="ratio ratio-16x9 mx-auto my-4 w-100">
+<div class="project-video">
   <iframe
-    width="720" 
-    height="400"
     src="https://www.youtube.com/embed/BJGT8_QhVcw?si=bRy-Grts7ig8_nId"
     title="YouTube video player"
-    frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen
@@ -60,13 +57,10 @@ Inherited 12 independent training simulators with disparate codebases and archit
 - Protected revenue through anti-piracy measures, preventing unlicensed product copying
 - Reduced ongoing maintenance overhead by consolidating codebases
 
-<div class="ratio ratio-16x9 mx-auto my-4 w-100">
+<div class="project-video">
   <iframe
-    width="720" 
-    height="400"
     src="https://www.youtube.com/embed/uVPObYeJuZY?si=ljDMdLCu9ZQ5BpOl"
     title="YouTube video player"
-    frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen
@@ -116,3 +110,4 @@ Inherited 12 independent training simulators with disparate codebases and archit
 - First Aid on Production Sites
 - Occupational Safety Requirements
 - Construction Site Safety Rules
+
