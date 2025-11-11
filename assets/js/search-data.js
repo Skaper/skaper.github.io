@@ -30,14 +30,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-aviar-aviation-vr-training-platform",
-          title: 'AVIAR - Aviation VR Training Platform',
-          description: "Senior Unity/VR Developer",
+        },{id: "projects-project-1",
+          title: 'project 1',
+          description: "AVIAR - Aviation VR Training Platform",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-standalone-vr-gaming-wheel-support",
+          title: 'Standalone VR Gaming Wheel Support',
+          description: "Industry-First Native USB Force Feedback Wheel Driver for Meta Quest",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
             },},{id: "projects-project-3-with-very-long-name",
