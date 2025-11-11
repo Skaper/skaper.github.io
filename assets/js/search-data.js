@@ -47,7 +47,7 @@ ninja.data = [{
               window.location.href = "/projects/3_project.html";
             },},{id: "projects-vr-roguelike-tower-defense-shooter",
           title: 'VR Roguelike Tower Defense Shooter',
-          description: "",
+          description: "Solo Unity Developer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
             },},{
