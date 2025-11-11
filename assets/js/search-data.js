@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-project-1",
-          title: 'project 1',
-          description: "AVIAR - Aviation VR Training Platform",
+        },{id: "projects-aviar-aviation-vr-training-platform",
+          title: 'AVIAR - Aviation VR Training Platform',
+          description: "Senior Unity/VR Developer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
             },},{id: "projects-standalone-vr-gaming-wheel-support",
