@@ -1,0 +1,46 @@
+.block-diagram {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.block-diagram .step {
+  flex: 1 1 220px;
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(148, 163, 184, 0.35);
+}
+
+.block-diagram .step h4 {
+  margin-bottom: 0.35rem;
+  font-size: 1.05rem;
+  color: #f8fafc;
+}
+
+.block-diagram .step p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #cbd5f5;
+}
+
+.block-diagram .arrow {
+  font-size: 1.75rem;
+  color: #94a3b8;
+  line-height: 1;
+}
+
+@media (max-width: 575.98px) {
+  .block-diagram {
+    flex-direction: column;
+  }
+
+  .block-diagram .arrow {
+    display: none;
+  }
+}
+

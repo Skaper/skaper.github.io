@@ -23,15 +23,9 @@ Physics, Custom Behavior Trees, NavMesh, Contacts Modification API,
 UniTask/UniRx, DOTween, RootMotion, Addressables
 
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/aviar/1.jpg" title="1" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/aviar/2.jpg" title="2" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/aviar/3.jpg" title="3" class="img-fluid rounded z-depth-1" %}
-  </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/aviar/main.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 <div class="caption">
   VIAR VR training solutions deployed in corporate and field environments. Users
@@ -85,7 +79,7 @@ operations
 
 <div class="ratio ratio-16x9 mx-auto my-4 w-100">
   <iframe
-    src="https://www.youtube.com/embed/Jdm898xkbGw?si=RUXaqA6iZ6qntQRf"
+    src="https://www.youtube.com/embed/f8iADe1KS4k?si=jwY4P6LXG-s8PVUh"
     title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
