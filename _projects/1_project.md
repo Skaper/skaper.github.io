@@ -9,7 +9,7 @@ related_publications: false
 ---
 
 # Senior Unity Developer | VR Systems Engineer
-## AVIAR - Aviation VR Training Platform | 2 years | Team of 5 developers
+## Aviation VR Training Platform | 2 years | Team of 5 developers
 _B2B VR training platform serving global aviation industry clients including
 Lufthansa, Swissport, DHL, and airlines worldwide_
 
