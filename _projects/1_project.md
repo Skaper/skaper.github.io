@@ -1,81 +1,72 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: AVIAR - Aviation VR Training Platform
+description: Senior Unity/VR Developer
+img: assets/img/projects/aviar/cover.jpg
 importance: 1
 category: work
 related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Senior Unity Developer | VR Systems Engineer
+## AVIAR - Aviation VR Training Platform | 2 years | Team of 5 developers
+_B2B VR training platform serving global aviation industry clients including Lufthansa, Swissport, DHL, and airlines worldwide_
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Architected and delivered 10+ interactive training scenarios for professional aviation ground operations, implementing full-featured simulations of specialized equipment (Highloader, Beltloader, Trepel) with realistic physics, AI systems, and intuitive VR controls.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+**Tech Stack:** Unity 6, URP, DOTS/Entities, Meta XR/OpenXR/PICO SDK, Obi Physics, Custom Behavior Trees, NavMesh, Contacts Modification API, UniTask/UniRx, DOTween, RootMotion, Addressables
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/aviar/1.jpg" title="1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/aviar/2.jpg" title="2" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/aviar/3.jpg" title="3" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    VIAR VR training solutions deployed in corporate and field environments. Users interact with high-fidelity aircraft simulations, practicing complex procedures that would be costly or dangerous to replicate in real-world conditions.
 </div>
 
-You can also put regular text between your rows of images, even citations if you need them.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Core Technical Contributions:
+**Advanced Physics & IK Systems** - Engineered custom inverse kinematics for Highloader lift mechanisms and realistic cargo handling. Implemented Contacts Modification API for accurate belt conveyor physics and roller systems, optimizing integration with Unity DOTS/ECS architecture. Developed rope/cable/hose simulations using Obi Physics for cargo securing and equipment operations.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+**Ground Vehicle Operations** - Created comprehensive vehicle control systems supporting multiple input methods (physical USB steering wheels, virtual controls, joysticks) with mixed reality integration via Passthrough API. Researched and implemented motion sickness mitigation techniques including camera vignetting, visual anchoring, velocity constraints, and vehicle stabilization to ensure comfortable extended training sessions.
+
+**AI & Behavior Systems** - Built custom action-based behavior tree framework integrated with DOTS/ECS for NPC drivers and autonomous vehicles. Implemented NavMesh-based navigation with gesture recognition for marshalling interactions, enabling realistic coordination between player and AI-controlled ground crew.
+
+<div class="ratio ratio-16x9 mx-auto my-4" style="max-width: 720px;">
+    <iframe
+        src="https://www.youtube.com/embed/rZlSJ9mKoPk?si=dEy9aoEdouqQug6x"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+    ></iframe>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+
+### Complex Training Scenarios:
+
+**Pushback Operations** - Multi-vehicle coordination with aircraft pushback, trajectory accuracy validation, and NPC interaction systems
+**Highloader Operations** - Full cargo loading simulation with physics-based conveyor systems and custom IK solutions
+**Beltloader Integration** - AI autopilot systems and automated equipment operations
+
+<div class="ratio ratio-16x9 mx-auto my-4" style="max-width: 720px;">
+    <iframe
+        src="https://www.youtube.com/embed/Jdm898xkbGw?si=RUXaqA6iZ6qntQRf"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+    ></iframe>
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+**Performance Optimization** - Architected ECS system execution pipeline with layered presentation/simulation groups. Implemented Asynchronous SpaceWarp with selective exclusions for fast-moving objects, maintaining target frame rates across Meta Quest and PICO platforms. Utilized Unity Profiler, OVR Metrics Tool, and Meta Quest Developer Hub for performance analysis.
 
-{% raw %}
+**Industry First Achievement** - Reverse-engineered proprietary USB HID protocols and developed custom Java-Unity driver plugin, delivering the market's first standalone VR headset application with native force-feedback steering wheel support—a capability unavailable in any competing solution.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
