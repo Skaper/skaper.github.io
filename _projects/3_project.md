@@ -19,6 +19,8 @@ Unity, C#, Zenject, UniRx, OpenXR, Meta XR SDK, PICO SDK, Bitrix24 API, JSON-bas
 
 <div class="ratio ratio-16x9 mx-auto my-4 w-100">
   <iframe
+    width="720" 
+    height="400"
     src="https://www.youtube.com/embed/BJGT8_QhVcw?si=bRy-Grts7ig8_nId"
     title="YouTube video player"
     frameborder="0"
@@ -60,6 +62,8 @@ Inherited 12 independent training simulators with disparate codebases and archit
 
 <div class="ratio ratio-16x9 mx-auto my-4 w-100">
   <iframe
+    width="720" 
+    height="400"
     src="https://www.youtube.com/embed/uVPObYeJuZY?si=ljDMdLCu9ZQ5BpOl"
     title="YouTube video player"
     frameborder="0"

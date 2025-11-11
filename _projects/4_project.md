@@ -39,6 +39,8 @@ Gameplay: Sci-fi bullet-hell tower defense featuring swarm-based enemy AI, 12 fa
 
 <div class="ratio ratio-16x9 mx-auto my-4 w-100">
   <iframe
+    width="720" 
+    height="400"
     src="https://www.youtube.com/embed/9rwowVkGjkE?si=TtWQ1skW7NP3PfEI"
     title="YouTube video player"
     frameborder="0"

@@ -44,6 +44,8 @@ setups. No standalone VR application had ever achieved native wheel support.
 
 <div class="ratio ratio-16x9 mx-auto my-4 w-100">
   <iframe
+    width="720" 
+    height="400"
     src="https://www.youtube.com/embed/Jdm898xkbGw?si=RUXaqA6iZ6qntQRf"
     title="YouTube video player"
     frameborder="0"

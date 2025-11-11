@@ -57,6 +57,8 @@ enabling realistic coordination between player and AI-controlled ground crew.
 
 <div class="ratio ratio-16x9 mx-auto my-4 w-100">
   <iframe
+    width="720" 
+    height="400"
     src="https://www.youtube.com/embed/rZlSJ9mKoPk?si=dEy9aoEdouqQug6x"
     title="YouTube video player"
     frameborder="0"
@@ -79,6 +81,8 @@ operations
 
 <div class="ratio ratio-16x9 mx-auto my-4 w-100">
   <iframe
+    width="720" 
+    height="400"
     src="https://www.youtube.com/embed/f8iADe1KS4k?si=jwY4P6LXG-s8PVUh"
     title="YouTube video player"
     frameborder="0"
