@@ -2,7 +2,7 @@
 layout: page
 title: Standalone VR Gaming Wheel Support
 description: Industry-First Native USB Force Feedback Wheel Driver for Meta Quest
-img: assets/img/3.jpg
+img: assets/img/projects/aviar/wheelCover.png
 importance: 2
 category: work
 giscus_comments: true
@@ -75,36 +75,8 @@ setups. No standalone VR application had ever achieved native wheel support.
   System, enabling seamless integration into any Unity project
 
 ### Architecture:
-<div class="block-diagram my-4">
-  <div class="step">
-    <h4>USB Device</h4>
-    <p>The force-feedback wheel enumerates as a USB HID controller on the headset.</p>
-  </div>
-  <div class="arrow">→</div>
-  <div class="step">
-    <h4>Android USB Host API</h4>
-    <p>The Android layer claims the device, handling report reads/writes and endpoint transfers.</p>
-  </div>
-  <div class="arrow">→</div>
-  <div class="step">
-    <h4>Java Driver Layer</h4>
-    <p>The custom driver decodes proprietary protocols and assembles force-feedback commands.</p>
-  </div>
-  <div class="arrow">→</div>
-  <div class="step">
-    <h4>JNI Bridge</h4>
-    <p>JNI passes data into the native layer while maintaining sub-millisecond latency budgets.</p>
-  </div>
-  <div class="arrow">→</div>
-  <div class="step">
-    <h4>Unity Native Plugin</h4>
-    <p>The plugin synchronizes wheel telemetry and pushes torque envelopes back to the device.</p>
-  </div>
-  <div class="arrow">→</div>
-  <div class="step">
-    <h4>Unity Input System</h4>
-    <p>Unity exposes the wheel as a standard joystick with full force-feedback support.</p>
-  </div>
+<div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/aviar/diagram.png" title="3" class="img-fluid rounded z-depth-1" %}
 </div>
 
 ### Impact

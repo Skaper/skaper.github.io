@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: AVIAR - Aviation VR Training Platform
-img: assets/img/12.jpg
+title: AVIAR - Aviation VR Training Platform
+description: Senior Unity/VR Developer
+img: assets/img/projects/aviar/cover.jpg
 importance: 1
 category: work
 related_publications: false
