@@ -40,9 +40,9 @@ ninja.data = [{
           description: "Industry-First Native USB Force Feedback Wheel Driver for Meta Quest",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-industrial-vr-safety-training-solutions",
+          title: 'Industrial VR Safety Training Solutions',
+          description: "Lead Unity Developer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
             },},{id: "projects-project-4",
