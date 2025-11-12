@@ -5,7 +5,6 @@ description: Industry-First Native USB Force Feedback Wheel Driver for Meta Ques
 img: assets/img/projects/aviar/wheelCover.png
 importance: 2
 category: work
-giscus_comments: true
 ---
 # Industry-First: Native USB Force Feedback Wheel Driver for Meta Quest
 ### Overview

@@ -22,16 +22,14 @@ AI systems, and intuitive VR controls.
 Physics, Custom Behavior Trees, NavMesh, Contacts Modification API,
 UniTask/UniRx, DOTween, RootMotion, Addressables
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/aviar/main.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-<div class="caption">
-  VIAR VR training solutions deployed in corporate and field environments. Users
-  interact with high-fidelity aircraft simulations, practicing complex
-  procedures that would be costly or dangerous to replicate in real-world
-  conditions.
+<div class="project-video">
+  <iframe
+    src="https://www.youtube.com/embed/rZlSJ9mKoPk?si=dEy9aoEdouqQug6x"
+    title="YouTube video player"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
 </div>
 
 ### Core Technical Contributions:
@@ -55,14 +53,16 @@ integrated with DOTS/ECS for NPC drivers and autonomous vehicles. Implemented
 NavMesh-based navigation with gesture recognition for marshalling interactions,
 enabling realistic coordination between player and AI-controlled ground crew.
 
-<div class="project-video">
-  <iframe
-    src="https://www.youtube.com/embed/rZlSJ9mKoPk?si=dEy9aoEdouqQug6x"
-    title="YouTube video player"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen
-  ></iframe>
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/aviar/main.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  AVIAR VR training solutions deployed in corporate and field environments. Users
+  interact with high-fidelity aircraft simulations, practicing complex
+  procedures that would be costly or dangerous to replicate in real-world
+  conditions.
 </div>
 
 ### Complex Training Scenarios:
