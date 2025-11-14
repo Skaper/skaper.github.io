@@ -18,8 +18,8 @@ Unity, C# (DOTS/ECS), Burst Compiler, C# Job System, FMOD, Meta XR SDK, OpenXR, 
 
 ### **Try JankerMan:**
 
-- Itch.io: https://skaperdev.itch.io/jankerman
-- Meta Quest AppLab: https://www.meta.com/experiences/app/6521195701244535/
+- [Itch.io](https://skaperdev.itch.io/jankerman)
+- [Meta Quest AppLab](https://www.meta.com/experiences/app/6521195701244535/)
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
