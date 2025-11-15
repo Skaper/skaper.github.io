@@ -52,7 +52,7 @@ ninja.data = [{
               window.location.href = "/projects/4_project.html";
             },},{id: "projects-varwin-no-code-vr-platform-development",
           title: 'Varwin - No-Code VR Platform Development',
-          description: "Solo Unity Developer",
+          description: "Middle Unity C# Developer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/varwin_project.html";
             },},{
