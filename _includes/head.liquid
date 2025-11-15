@@ -143,7 +143,7 @@
       crossorigin="anonymous"
     >
   {% endif %}
-  {% if page.images.photoswipe %}
+  {% if page.images.photoswipe or page.layout == 'page' %}
     <!-- Photoswipe -->
     <link
       defer

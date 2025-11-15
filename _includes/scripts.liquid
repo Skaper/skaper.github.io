@@ -274,6 +274,9 @@
   {% if page.images.photoswipe %}
     <script defer src="{{ '/assets/js/photoswipe-setup.js' | relative_url }}" type="module"></script>
   {% endif %}
+  {% if page.layout == 'page' %}
+    <script defer src="{{ '/assets/js/projects-photoswipe-setup.js' | relative_url }}" type="module"></script>
+  {% endif %}
   {% if page.images.slider %}
     <script
       defer
