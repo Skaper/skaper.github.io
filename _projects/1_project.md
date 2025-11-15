@@ -7,19 +7,19 @@ importance: 1
 category: work
 related_publications: false
 ---
+2 years | Team of 5 developers
 
-# Senior Unity Developer | VR Systems Engineer
-## Aviation VR Training Platform | 2 years | Team of 5 developers
 _B2B VR training platform serving global aviation industry clients including
 Lufthansa, Swissport, DHL, and airlines worldwide_
-
+### Overview
 Architected and delivered 10+ interactive training scenarios for professional
 aviation ground operations, implementing full-featured simulations of
 specialized equipment (Highloader, Beltloader, Trepel) with realistic physics,
 AI systems, and intuitive VR controls.
 
-**Tech Stack:** Unity 6, URP, DOTS/Entities, Meta XR/OpenXR/PICO SDK, Obi
-Physics, Custom Behavior Trees, NavMesh, Contacts Modification API,
+### Tech Stack: 
+Unity 6, URP, DOTS/Entities, Meta XR/OpenXR/PICO SDK, ObiPhysics, 
+Custom Behavior Trees, NavMesh, Contacts Modification API,
 UniTask/UniRx, DOTween, RootMotion, Addressables
 
 <div class="project-video">

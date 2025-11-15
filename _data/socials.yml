@@ -51,7 +51,7 @@ whatsapp_number: +817085105939
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 custom_social_line:
-  logo: assets/img/line.svg
+  logo: assets/img/line.png
   title: Line
   url: https://line.me/ti/p/ZpGhmwdJK2
 custom_social_itch: # can be any name here other than the ones already defined above

@@ -6,9 +6,7 @@ img: assets/img/projects/ultralab/cover.png
 importance: 4
 category: work
 ---
-
-# JankerMan - VR Roguelike Tower Defense Shooter
-Solo Unity Developer | Ultralab | Oct 2022 – May 2023 | 8-month development cycle
+Ultralab | Oct 2022 – May 2023 | 8-month development cycle
 
 ### Overview
 Single-handedly developed sci-fi VR shooter combining tower defense, bullet-hell, and roguelike elements for Meta Quest and PCVR. Led complete development from concept through AppLab release, conducting extensive playtesting with 150+ users and iterating based on analytics and community feedback.
@@ -97,4 +95,5 @@ Gameplay: Sci-fi bullet-hell tower defense featuring swarm-based enemy AI, 12 fa
 
 ## Additional Contributions
 
-Contributed prototype work, technical consultation, and testing for Ultra Boxing VR. Advised Ultralab teams on VR development best practices including performance optimization strategies, comfort considerations, and interaction design patterns.
+Contributed prototype work, technical consultation, and testing for [Ultra Boxing VR](https://ultraboxingvr.com/) 
+Advised Ultralab teams on VR development best practices including performance optimization strategies, comfort considerations, and interaction design patterns.

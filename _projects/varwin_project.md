@@ -1,14 +1,12 @@
 ---
 layout: page
 title: Varwin - No-Code VR Platform Development
-description: Solo Unity Developer
+description: Middle Unity C# Developer
 img: assets/img/projects/varwin/cover.jpg
 importance: 5
 category: work
 ---
-
-# Varwin - No-Code VR Platform Development
-Unity C# Developer | Aug 2021 – Aug 2022 | Team of 10+ developers | St. Petersburg, Russia
+Aug 2021 – Aug 2022 | Team of 10+ developers | St. Petersburg, Russia
 
 ### Overview
 Contributed to core platform development and client project delivery for Varwin XRMS, an enterprise no-code VR platform serving 90+ clients across 24 countries. 

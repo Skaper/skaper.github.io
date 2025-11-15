@@ -6,7 +6,6 @@ img: assets/img/projects/aviar/wheelCover.png
 importance: 2
 category: work
 ---
-# Industry-First: Native USB Force Feedback Wheel Driver for Meta Quest
 ### Overview
 Developed the world's first native USB gaming wheel driver for standalone VR
 headsets, enabling force feedback steering wheel support on Meta Quest without
@@ -25,7 +24,7 @@ training station and enabled fully portable VR vehicle simulation setups.
   </div>
 </div>
 
-#### Technical Stack
+### Technical Stack
 Android USB Host API, Java Native Interface (JNI), Unity Native Plugins, Python
 (protocol analysis), Wireshark, USB HID Protocol, Unity Input System
 

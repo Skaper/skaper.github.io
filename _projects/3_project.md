@@ -6,9 +6,7 @@ img: assets/img/projects/promvr/cover.jpg
 importance: 3
 category: work
 ---
-
-# Industrial VR Safety Training Solutions
-Lead Unity Developer | May 2023 – Dec 2023 | Team of 9 (5 developers, 4 designers)
+May 2023 – Dec 2023 | Team of 9 (5 developers, 4 designers)
 
 ### Overview
 
