@@ -1,21 +1,12 @@
 {% assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
 {% assign parts = include.path | split: '.' %}
 {% assign ext = parts.last %}
-{% assign img_src = include.path | relative_url %}
-{% if include.url %}
-  {% assign img_src = include.url %}
-{% elsif include.cache_bust %}
-  {% assign img_src = include.path | relative_url | bust_file_cache %}
-{% endif %}
 
 <figure
   {% if include.slot %}
     slot="{{ include.slot }}"
   {% endif %}
 >
-  {% if include.photoswipe or page.layout == 'page' %}
-    <a href="{{ img_src }}" target="_blank">
-  {% endif %}
   <picture>
     <!-- Auto scaling with imagemagick -->
     <!--
@@ -41,7 +32,7 @@
       {% endunless %}
     {% endif %}
     <img
-      src="{{ img_src }}"
+      src="{% if include.url %}{{ include.url }}{% elsif include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
       {% if include.class %}
         class="{{ include.class }}"
       {% endif %}
@@ -88,9 +79,6 @@
       onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
     >
   </picture>
-  {% if include.photoswipe or page.layout == 'page' %}
-    </a>
-  {% endif %}
 
   {% if include.caption %}
     <figcaption class="caption">{{ include.caption }}</figcaption>
