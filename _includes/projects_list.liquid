@@ -1,0 +1,56 @@
+<div class="news">
+  {% if page.projects != blank %}
+    {% assign projects_size = site.projects | size %}
+    <div
+      class="table-responsive"
+      {% if page.projects.scrollable and projects_size > 3 %}
+        style="max-height: 60vw"
+      {% endif %}
+    >
+      <table class="table table-sm table-borderless">
+        {% assign sorted_projects = site.projects | sort: "importance" %}
+        {% if page.projects.limit %}
+          {% assign projects_limit = page.projects.limit %}
+        {% else %}
+          {% assign projects_limit = projects_size %}
+        {% endif %}
+        {% for project in sorted_projects limit: projects_limit %}
+          <tr>
+            <th scope="row" style="width: 20%">
+              {% if project.category %}
+                {{ project.category }}
+              {% endif %}
+            </th>
+            <td>
+              {% if project.redirect == blank %}
+                <a class="news-title" href="{{ project.url | relative_url }}">{{ project.title }}</a>
+              {% elsif project.redirect contains '://' %}
+                <a class="news-title" href="{{ project.redirect }}" target="_blank">{{ project.title }}</a>
+                <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9"
+                    class="icon_svg-stroke"
+                    stroke="#999"
+                    stroke-width="1.5"
+                    fill="none"
+                    fill-rule="evenodd"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              {% else %}
+                <a class="news-title" href="{{ project.redirect | relative_url }}">{{ project.title }}</a>
+              {% endif %}
+              {% if project.description %}
+                <br><small class="text-muted">{{ project.description }}</small>
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No projects so far...</p>
+  {% endif %}
+</div>
+

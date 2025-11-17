@@ -19,9 +19,9 @@ announcements:
   scrollable: false # adds a vertical scroll bar if there are more than 3 news items
   limit:
 
-latest_posts:
+projects:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 project items
   limit:
 ---
 

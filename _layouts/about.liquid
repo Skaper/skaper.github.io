@@ -48,12 +48,12 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
+    <!-- Projects -->
+    {% if page.projects and page.projects.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">projects</a>
       </h2>
-      {% include latest_posts.liquid %}
+      {% include projects_list.liquid %}
     {% endif %}
 
     <!-- Selected papers -->
