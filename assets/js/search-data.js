@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -50,6 +50,11 @@ ninja.data = [{
           description: "Solo Unity Developer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
+            },},{id: "projects-reabell-vr-space-game-development",
+          title: 'Reabell - VR Space Game Development',
+          description: "My first VR project",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/reabell_project.html";
             },},{id: "projects-varwin-no-code-vr-platform-development",
           title: 'Varwin - No-Code VR Platform Development',
           description: "Middle Unity C# Developer",
