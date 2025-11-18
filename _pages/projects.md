@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 nav: true
 nav_order: 3
-display_categories: [work,  persona projects]
+display_categories: [work, personal projects]
 horizontal: false
 ---
 <!-- pages/projects.md -->
