@@ -34,27 +34,27 @@ ninja.data = [{
           title: 'Aviation VR Training Platform',
           description: "Senior Unity/VR Developer",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project.html";
+              window.location.href = "/projects/aviar_project.html";
             },},{id: "projects-standalone-vr-gaming-wheel-support",
           title: 'Standalone VR Gaming Wheel Support',
           description: "Industry-First Native USB Force Feedback Wheel Driver for Meta Quest",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project.html";
+              window.location.href = "/projects/aviar_wheel_project.html";
             },},{id: "projects-industrial-vr-safety-training-solutions",
           title: 'Industrial VR Safety Training Solutions',
           description: "Lead Unity Developer",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project.html";
+              window.location.href = "/projects/promvr_project.html";
+            },},{id: "projects-reabell-vr-space-game-development",
+          title: 'reAbell - VR Space Game Development',
+          description: "My first VR project",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/reabell_project.html";
             },},{id: "projects-vr-roguelike-tower-defense-shooter",
           title: 'VR Roguelike Tower Defense Shooter',
           description: "Solo Unity Developer",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project.html";
-            },},{id: "projects-reabell-vr-space-game-development",
-          title: 'Reabell - VR Space Game Development',
-          description: "My first VR project",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/reabell_project.html";
+              window.location.href = "/projects/ultralab_project.html";
             },},{id: "projects-varwin-no-code-vr-platform-development",
           title: 'Varwin - No-Code VR Platform Development',
           description: "Middle Unity C# Developer",
