@@ -246,7 +246,7 @@ ul.task-list input[type="checkbox"] {
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
+  background-color: var(--global-navbar-bg-color);
   opacity: 0.95;
 }
 
@@ -689,7 +689,7 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: var(--global-divider-color);
+    color: var(--global-category-color);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
@@ -1179,6 +1179,30 @@ nav[data-toggle="toc"] {
 
 #toc-sidebar {
   z-index: 1;
+  visibility: hidden;
+  
+  &.initialized {
+    visibility: visible;
+  }
+  
+  // Hide on mobile devices
+  @media (max-width: 575.98px) {
+    display: none !important;
+  }
+}
+
+// Hide TOC sidebar column on mobile to allow full-width content
+@media (max-width: 575.98px) {
+  .row > .col-sm-3 {
+    &:has(#toc-sidebar) {
+      display: none !important;
+    }
+  }
+  
+  .row > .col-sm-9 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 
 .echarts {

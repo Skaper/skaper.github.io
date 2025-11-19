@@ -26,8 +26,11 @@ $(document).ready(function () {
     var navSelector = "#toc-sidebar";
     var $myNav = $(navSelector);
     Toc.init($myNav);
+    // Show TOC only after initialization to prevent flickering
+    $myNav.addClass("initialized");
     $("body").scrollspy({
       target: navSelector,
+      offset: 70
     });
   }
 
