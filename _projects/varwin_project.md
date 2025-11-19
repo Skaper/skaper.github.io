@@ -16,7 +16,7 @@ Worked across two specialized teams:
 
 Expanded platform capabilities through 40+ new Blockly visual programming blocks, comprehensive SDK documentation, and production delivery of 4 major VR applications for industrial training and retail analytics.
 
-## Technical Stack & Methodologies
+### Technical Stack
 
 **Technologies:** Unity 2018/2021, C#, JavaScript, CSS, Electron, Google Blockly, OpenXR, SteamVR, Unity NavMesh, Reflection API, IPC protocols, Unity Profiler, Frame Debugger
 
@@ -34,9 +34,11 @@ Expanded platform capabilities through 40+ new Blockly visual programming blocks
   ></iframe>
 </div>
 
+---
+
 ## Core Platform Contributions
 
-**Visual Programming System Expansion**
+### Visual Programming System Expansion
 - Engineered 40+ new Blockly visual programming blocks integrated with Unity backend, expanding the standard library by 25% and enabling non-technical users to create complex interactive scenarios
 - Developed comprehensive object movement system including transform manipulation, Bezier curve path following with speed/easing/looping controls, Unity NavMesh-based AI navigation, and physics-based motion
 - Designed and implemented interactive SDK objects becoming part of standard Varwin library: hydraulic doors, elevator platforms, button sequence mechanisms, dynamic light sources, and NPC dialogue systems
@@ -54,25 +56,25 @@ Expanded platform capabilities through 40+ new Blockly visual programming blocks
   </div>
 </div>
 
-**Cross-Platform VR Support & Optimization**
+### Cross-Platform VR Support & Optimization
 - Maintained compatibility across multiple VR headset platforms through OpenXR and SteamVR integration, supporting Meta Quest, Vive, Pico, and Windows Mixed Reality devices
 - Optimized multiple client scenes for standalone VR deployment, improving frame rates from 72fps to 90fps through profiling, draw call reduction, LOD implementation, and asset optimization
 - Utilized Unity Profiler and external frame debugging tools to analyze rendering bottlenecks and implement performance improvements for mobile VR hardware constraints
 
-**Object Versioning & Migration System**
+### Object Versioning & Migration System
 - Contributed to object versioning architecture enabling backward compatibility during platform evolution
 - Implemented migration scripts allowing projects to upgrade seamlessly as platform capabilities expanded
 - Supported platform transition from Unity 2018 to 2021 without breaking existing client projects
 
-**Comprehensive SDK Documentation**
+### Comprehensive SDK Documentation
 - Authored 100+ pages of technical documentation for public developer portal (docs.varwin.com) covering SDK API reference, core architecture patterns, and development workflows
 - Documented Unity-Electron communication protocols, Blockly integration architecture, and SDK build pipeline
 - Created initialization flow diagrams illustrating startup sequences, object loading procedures, and scene management lifecycle
 - Developed tutorials and example projects demonstrating SDK usage patterns and best practices
 
-## Client Project Delivery
+### Client Project Delivery
 
-**Russian Railways (RZD) - Track Maintenance VR Simulator**
+#### Russian Railways (RZD) - Track Maintenance VR Simulator
 - Developed realistic railroad equipment simulation for track laying/removal training supporting both VR and desktop modes
 - Implemented accurate equipment behavior physics, procedural training workflows, and gamified scoring system evaluating technique and safety compliance
 - Created assessment framework tracking user performance, identifying procedural errors, and generating competency reports
@@ -88,7 +90,7 @@ Expanded platform capabilities through 40+ new Blockly visual programming blocks
   ></iframe>
 </div>
 
-**Naval Museum - Interactive 360° Virtual Tour**
+#### Naval Museum - Interactive 360° Virtual Tour
 - Engineered timeline-based interactive system synchronizing 3D exhibits with 360° video playback of military vessel converted to museum
 - Developed event triggering mechanism activating interactive 3D models, information overlays, and audio narration at precise video timestamps
 - Implemented navigation system enabling seamless transitions between panoramic viewpoints and interactive exhibit exploration
@@ -103,7 +105,7 @@ Expanded platform capabilities through 40+ new Blockly visual programming blocks
   </div>
 </div>
 
-**Jacobs (JDE) - Eye-Tracking Retail Analytics Platform**
+#### Jacobs (JDE) - Eye-Tracking Retail Analytics Platform
 - Built VR market research application for global coffee brand testing product placement strategies across virtual store replicas
 - Implemented eye-tracking data collection system supporting both native eye-tracking (Vive Pro Eye, Pico Neo 3 Pro Eye) and gaze-based tracking (camera center for non-equipped headsets)
 - Developed heatmap visualization, attention metrics computation, and data export system for marketing analysis
@@ -119,7 +121,7 @@ Expanded platform capabilities through 40+ new Blockly visual programming blocks
   </div>
 </div>
 
-**Auchan Retail - In-Store Customer Research Application**
+#### Auchan Retail - In-Store Customer Research Application
 - Developed VR shopping simulation for major supermarket chain deployed in physical Auchan locations for customer participation
 - Engineered physics-based shopping cart mechanics enabling realistic product selection, basket placement, and checkout simulation
 - Optimized for standalone Meta Quest 2 deployment eliminating PC requirements for in-store installations
@@ -135,3 +137,9 @@ Expanded platform capabilities through 40+ new Blockly visual programming blocks
   </div>
 </div>
 
+---
+
+## Business Impact
+- Expanded platform capabilities by 25% through 40+ Blockly blocks, enabling creation of more sophisticated VR scenarios without developer involvement
+- SDK documentation (100+ pages) improved developer onboarding and reduced support overhead across platform ecosystem
+- Standard library objects became reusable assets across 90+ enterprise projects serving clients in 24 countries

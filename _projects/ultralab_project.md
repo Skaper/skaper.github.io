@@ -14,11 +14,6 @@ Single-handedly developed sci-fi VR shooter combining tower defense, bullet-hell
 ### Tech Stack
 Unity, C# (DOTS/ECS), Burst Compiler, C# Job System, FMOD, Meta XR SDK, OpenXR, Boids Algorithm, Custom Procedural Generation, Unity Timeline/Animator
 
-### **Try JankerMan:**
-
-- [Itch.io](https://skaperdev.itch.io/jankerman)
-- [Meta Quest AppLab](https://www.meta.com/experiences/app/6521195701244535/)
-
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/projects/ultralab/1.png" title="1" class="img-fluid rounded z-depth-1" %}
@@ -45,6 +40,12 @@ Gameplay: Sci-fi bullet-hell tower defense featuring swarm-based enemy AI, 12 fa
     allowfullscreen
   ></iframe>
 </div>
+
+**Try JankerMan:**
+- [Itch.io](https://skaperdev.itch.io/jankerman)
+- [Meta Quest AppLab](https://www.meta.com/experiences/app/6521195701244535/)
+
+--- 
 
 ## Technical Implementation
 
@@ -92,6 +93,8 @@ Gameplay: Sci-fi bullet-hell tower defense featuring swarm-based enemy AI, 12 fa
 
 - Delivered optimized builds for Meta Quest standalone and PCVR using OpenXR abstraction
 - Maintained unified codebase with platform-specific performance tuning
+
+---
 
 ## Additional Contributions
 

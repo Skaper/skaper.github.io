@@ -12,7 +12,7 @@ May 2023 – Dec 2023 | Team of 9 (5 developers, 4 designers)
 
 Led development of B2B VR training platform serving major Russian oil & gas companies and industrial enterprises. Delivered safety compliance training simulations across 12 modules including work at heights, fire safety, hazard detection, first aid, and construction site safety protocols.
 
-### Tech Stack
+### Technical Stack
 Unity, C#, Zenject, UniRx, OpenXR, Meta XR SDK, PICO SDK, Bitrix24 API, JSON-based configuration, Custom CI/CD
 
 <div class="project-video">
@@ -25,11 +25,11 @@ Unity, C#, Zenject, UniRx, OpenXR, Meta XR SDK, PICO SDK, Bitrix24 API, JSON-bas
   ></iframe>
 </div>
 
-### Major Achievement: Unified Architecture & Anti-Piracy System
+### Major Achievement
+- **Unified Architecture & Anti-Piracy System** - Inherited 12 independent training simulators with disparate codebases and architectures
+- Architected and implemented complete platform unification enabling modular product delivery and robust license protection
 
-Inherited 12 independent training simulators with disparate codebases and architectures. Architected and implemented complete platform unification enabling modular product delivery and robust license protection.
-
-### Technical Approach:
+### Technical Approach
 
 - Designed modular initialization architecture using Zenject dependency injection, consolidating 12 separate projects into unified codebase with compile-time configuration system
 - Built comprehensive licensing system with online/offline verification through Bitrix24 CRM integration and hardware-based protection
@@ -48,22 +48,7 @@ Inherited 12 independent training simulators with disparate codebases and archit
   </div>
 </div>
 
-### Business Impact:
-
-- Enabled flexible modular product offerings—clients could purchase any combination of training modules
-- Streamlined client deployments and eliminated deployment complexity
-- Protected revenue through anti-piracy measures, preventing unlicensed product copying
-- Reduced ongoing maintenance overhead by consolidating codebases
-
-<div class="project-video">
-  <iframe
-    src="https://www.youtube.com/embed/uVPObYeJuZY?si=ljDMdLCu9ZQ5BpOl"
-    title="YouTube video player"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen
-  ></iframe>
-</div>
+---
 
 ## Core Development Contributions
 
@@ -100,7 +85,7 @@ Inherited 12 independent training simulators with disparate codebases and archit
 - Made architectural decisions for modular system design
 - Planned technical roadmap and feature prioritization
 
-#### Training Modules Delivered
+### Training Modules Delivered
 
 - Work at Heights Safety
 - Fire Safety Qualification
@@ -108,4 +93,23 @@ Inherited 12 independent training simulators with disparate codebases and archit
 - First Aid on Production Sites
 - Occupational Safety Requirements
 - Construction Site Safety Rules
+
+---
+
+## Business Impact
+
+- Enabled flexible modular product offerings—clients could purchase any combination of training modules
+- Streamlined client deployments and eliminated deployment complexity
+- Protected revenue through anti-piracy measures, preventing unlicensed product copying
+- Reduced ongoing maintenance overhead by consolidating codebases
+
+<div class="project-video">
+  <iframe
+    src="https://www.youtube.com/embed/uVPObYeJuZY?si=ljDMdLCu9ZQ5BpOl"
+    title="YouTube video player"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
 

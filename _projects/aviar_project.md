@@ -17,7 +17,7 @@ aviation ground operations, implementing full-featured simulations of
 specialized equipment (Highloader, Beltloader, Trepel) with realistic physics,
 AI systems, and intuitive VR controls.
 
-### Tech Stack: 
+### Technical Stack
 Unity 6, URP, DOTS/Entities, Meta XR/OpenXR/PICO SDK, ObiPhysics, 
 Custom Behavior Trees, NavMesh, Contacts Modification API,
 UniTask/UniRx, DOTween, RootMotion, Addressables
@@ -32,23 +32,25 @@ UniTask/UniRx, DOTween, RootMotion, Addressables
   ></iframe>
 </div>
 
-### Core Technical Contributions:
+---
 
-**Advanced Physics & IK Systems** - Engineered custom inverse kinematics for
+## Core Technical Contributions
+
+- **Advanced Physics & IK Systems** - Engineered custom inverse kinematics for
 Highloader lift mechanisms and realistic cargo handling. Implemented Contacts
 Modification API for accurate belt conveyor physics and roller systems,
 optimizing integration with Unity DOTS/ECS architecture. Developed
 rope/cable/hose simulations using Obi Physics for cargo securing and equipment
 operations.
 
-**Ground Vehicle Operations** - Created comprehensive vehicle control systems
+- **Ground Vehicle Operations** - Created comprehensive vehicle control systems
 supporting multiple input methods (physical USB steering wheels, virtual
 controls, joysticks) with mixed reality integration via Passthrough API.
 Researched and implemented motion sickness mitigation techniques including
 camera vignetting, visual anchoring, velocity constraints, and vehicle
 stabilization to ensure comfortable extended training sessions.
 
-**AI & Behavior Systems** - Built custom action-based behavior tree framework
+- **AI & Behavior Systems** - Built custom action-based behavior tree framework
 integrated with DOTS/ECS for NPC drivers and autonomous vehicles. Implemented
 NavMesh-based navigation with gesture recognition for marshalling interactions,
 enabling realistic coordination between player and AI-controlled ground crew.
@@ -65,15 +67,22 @@ enabling realistic coordination between player and AI-controlled ground crew.
   conditions.
 </div>
 
-### Complex Training Scenarios:
+- **Performance Optimization** - Architected ECS system execution pipeline with
+layered presentation/simulation groups. Implemented Asynchronous SpaceWarp with
+selective exclusions for fast-moving objects, maintaining target frame rates
+across Meta Quest and PICO platforms. Utilized Unity Profiler, OVR Metrics Tool,
+and Meta Quest Developer Hub for performance analysis.
 
-**Pushback Operations** - Multi-vehicle coordination with aircraft pushback,
+
+### Complex Training Scenarios
+
+- **Pushback Operations** - Multi-vehicle coordination with aircraft pushback,
 trajectory accuracy validation, and NPC interaction systems
 
-**Highloader Operations** - Full cargo loading simulation with physics-based
+- **Highloader Operations** - Full cargo loading simulation with physics-based
 conveyor systems and custom IK solutions
 
-**Beltloader Integration** - AI autopilot systems and automated equipment
+- **Beltloader Integration** - AI autopilot systems and automated equipment
 operations
 
 <div class="project-video">
@@ -86,12 +95,8 @@ operations
   ></iframe>
 </div>
 
-**Performance Optimization** - Architected ECS system execution pipeline with
-layered presentation/simulation groups. Implemented Asynchronous SpaceWarp with
-selective exclusions for fast-moving objects, maintaining target frame rates
-across Meta Quest and PICO platforms. Utilized Unity Profiler, OVR Metrics Tool,
-and Meta Quest Developer Hub for performance analysis.
-
+---
+## Business Impact:
 **Industry First Achievement** - Reverse-engineered proprietary USB HID
 protocols and developed custom Java-Unity driver plugin, delivering the
 market's first standalone VR headset application with native force-feedback

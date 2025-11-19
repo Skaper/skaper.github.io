@@ -28,7 +28,7 @@ training station and enabled fully portable VR vehicle simulation setups.
 Android USB Host API, Java Native Interface (JNI), Unity Native Plugins, Python
 (protocol analysis), Wireshark, USB HID Protocol, Unity Input System
 
-## The Challenge
+### The Challenge
 
 Gaming steering wheels with force feedback had zero support on Android-based
 systems. Unlike PC platforms with mature driver ecosystems, Android lacked any
@@ -50,9 +50,11 @@ setups. No standalone VR application had ever achieved native wheel support.
   ></iframe>
 </div>
 
+---
+
 ## Technical Approach
 
-**Reverse Engineering (2 months)**
+### Reverse Engineering (2 months)
 
 - Analyzed 100+ protocol commands across multiple operational modes using
   Wireshark and custom Python scripts for packet parsing and pattern detection
@@ -71,20 +73,22 @@ setups. No standalone VR application had ever achieved native wheel support.
 - Designed Unity-facing API to expose wheel as standard Joystick in Unity Input
   System, enabling seamless integration into any Unity project
 
-### Architecture:
+### Architecture
 
 <div class="col-sm mt-3 mt-md-0">
   {% include figure.liquid loading="eager" path="assets/img/projects/aviar/diagram.png" title="3" class="img-fluid rounded z-depth-1" %}
 </div>
 
-### Impact
+---
+
+## Business Impact
 
 **Industry First:**
 Delivered the market's only standalone VR application with native USB force
 feedback wheel support—a capability that remains unavailable in competing
 solutions.
 
-#### **Business Value:**
+### Business Value
 
 - Eliminated €1,000+ PC hardware requirement per training station
 - Enabled fully portable demo setups for trade shows and client presentations

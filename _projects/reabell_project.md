@@ -1,12 +1,16 @@
 ---
 layout: page
-title: Reabell - VR Space Game Development
+title: reAbell - VR Space Game Development
 description: My first VR project
 img: assets/img/projects/reabell/cover.png
 importance: 1
 category: personal projects
 published: true
 ---
+### Overview
+Solo VR project developed over 6 months. Started on Android/Google Cardboard, later ported to Meta Quest 2.
+Inspired by the rotating station scene from 2001: A Space Odyssey - I wanted to recreate walking on walls and ceilings with artificial gravity in VR.
+
 <div class="project-video">
   <iframe
     src="https://www.youtube.com/embed/OLaNpr7XqwY?si=Cfq1Y9rztHBNUsBy"
@@ -17,7 +21,13 @@ published: true
   ></iframe>
 </div>
 
-[Play on itch.io](https://skaperdev.itch.io/reabell)
+**Try reAbell:**
+- [Itch.io](https://skaperdev.itch.io/reabell)
+
+### Technical Stack
+Unity 2019.4, C#, BNG Framework, Meta Quest SDK, Invector AI, Custom gravity physics, Meta Quest 2/3 (originally Android/Cardboard)
+
+---
 
 ## Starting with Android/Cardboard
 
@@ -136,9 +146,10 @@ public class GravityGunController : MonoBehaviour
 Not perfect, but it worked with the hardware I had.
 
 ### Low-Poly Graphics
-
 I chose low-poly style from the start because mobile GPUs are weak. Every model under 10k triangles, optimized textures. It wasn't just art direction - it was necessary to run on different phone models without overheating even worse.
+
 ---
+
 ## Moving to Meta Quest 2
 
 After dealing with phone limitations for months, I switched to Meta Quest 2. Standalone VR headset with hand tracking and 6DOF controllers.
@@ -619,7 +630,7 @@ public interface IShieldSystem
 They weave between asteroids and break off if you fly into debris. When close, they switch to strafing:
 
 
-### Mission Structure
+### Gameplay / Mission Structure
 
 1. Fly through navigation gates
 2. Destroy signal jammer
