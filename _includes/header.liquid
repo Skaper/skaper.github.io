@@ -6,23 +6,7 @@
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
       {% else %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          {% if site.title == 'blank' %}
-            {% if site.first_name %}
-              <span class="font-weight-bold">
-                {{- site.first_name -}}
-              </span>
-            {% endif %}
-            {% if site.middle_name %}
-              {{- site.middle_name -}}
-            {% endif %}
-            {% if site.last_name %}
-              {{- site.last_name -}}
-            {% endif %}
-          {% else %}
-            {{- site.title -}}
-          {% endif %}
-        </a>
+        <!-- Navbar brand hidden -->
       {% endif %}
       <!-- Navbar Toggle -->
       <button
@@ -41,8 +25,8 @@
         <span class="icon-bar bottom-bar"></span>
       </button>
 
-      <div class="navbar-collapse text-center show d-flex justify-content-between align-items-center" id="navbarNav">
-        <ul class="navbar-nav mx-auto flex-nowrap">
+      <div class="navbar-collapse text-center show d-flex justify-content-center align-items-center position-relative" id="navbarNav">
+        <ul class="navbar-nav flex-nowrap">
           {% for page in site.pages %}
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
           {% endfor %}
@@ -127,16 +111,6 @@
             </li>
           {% endif %}
         </ul>
-        {% if site.enable_darkmode %}
-          <!-- Toogle theme mode -->
-          <div class="toggle-container ml-auto">
-            <button id="light-toggle" title="Change theme">
-              <i class="ti ti-sun-moon" id="light-toggle-system"></i>
-              <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
-              <i class="ti ti-sun-filled" id="light-toggle-light"></i>
-            </button>
-          </div>
-        {% endif %}
       </div>
     </div>
   </nav>
