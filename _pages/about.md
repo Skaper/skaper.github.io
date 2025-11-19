@@ -8,8 +8,6 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Tokyo, Japan</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,13 +24,19 @@ projects:
 ---
 
 ## DANIIL ROSTOVSKII
+Unity C# Developer with 5+ years crafting immersive VR, AR, and MR experiences. **Based in Tokyo, Japan**.
 
-**Unity C# Developer** specializing in **VR/XR** development and game systems with **5+ years of experience** building immersive training simulations, 
-interactive applications, and VR games. Currently based in Tokyo, Japan, actively seeking opportunities in VR/XR development, 
-game development, and enterprise .NET solutions.
+I build high-performance training simulations and games that solve real business problems:
 
-Previously delivered VR training platforms for aviation ([AVIAR](https://www.aviar.nl/)), industrial safety ([PromVR](https://promvr.net/)), 
-and enterprise VR tools ([Varwin](https://varwin.com/en/)) serving major clients including **DHL, Lufthansa, Swissport**, and Gazprom. 
-Developed VR roguelike shooter [JankerMan](https://www.meta.com/experiences/jankerman-alpha/6521195701244535/) from concept to **AppLab release**, implementing full DOTS/ECS architecture managing hundreds of concurrent enemies at 90fps on Meta Quest.
+- **For Aviation** — Delivered 10+ VR scenarios for Lufthansa, Swissport, DHL at [AVIAR](https://www.aviar.nl/). Reverse-engineered USB protocols to achieve industry-first force feedback wheel support on standalone VR, eliminating €1,000+ PC requirement per station.
 
-Passionate about solving complex technical challenges at the intersection of immersive technology, game mechanics, and practical business applications. Experienced in full-cycle development—from initial prototypes to production deployment across VR headsets, mobile platforms, and PC.
+- **For Industry** — Led development of 12 safety compliance modules at [PromVR](https://promvr.net/) serving oil & gas companies. Architected unified platform consolidating 12 independent simulators using Zenject DI.
+
+- **For Gaming** — Solo-developed [JankerMan](https://www.meta.com/experiences/jankerman-alpha/6521195701244535/) VR roguelike from concept to AppLab release. Implemented full DOTS/ECS architecture achieving 72 FPS with hundreds of concurrent enemies on Meta Quest 2.
+
+- **For Enterprise** — Expanded ([Varwin](https://varwin.com/en/) visual programming platform by 25% serving 90+ clients across 24 countries. Built VR analytics tools for Jacobs and Auchan retail research.
+
+**Core Expertise:** Unity DOTS/ECS • DI • Meta Quest Optimization • Custom Physics & IK • Behavior Trees • Multiplayer Networking
+
+**Architecture:** Dependency Injection (DI) • Zenject • UniRx • Object-Oriented Programming (OOP) •  Design Patterns • SOLID Principles.
+Open to: VR/XR Development | Game Development | Enterprise C#/.NET

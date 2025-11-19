@@ -970,16 +970,6 @@ The oxygen tank hiss, Gravity Gun hum, engine sounds, heavy breathing - audio do
 
 ## Result
 
-Solo project, 6 months development. Rough around the edges but everything in it is mine.
-
-The multi-gravity station still surprises people. Ship combat makes players lean into turns. Escape sequence gets real reactions.
-
-That modded Cardboard headset with the taped fan is on my shelf now.
-
-**Tech Stack:**
-- Unity 2019.4
-- C#
-- BNG Framework, Meta Quest SDK
-- Invector AI
-- Custom gravity physics
-- Meta Quest 2/3 (originally Android/Cardboard)
+- Solo project, 6 months development. Rough around the edges but everything in it is mine.
+- The multi-gravity station still surprises people. Ship combat makes players lean into turns. Escape sequence gets real reactions.
+- That modded Cardboard headset with the taped fan is on my shelf now.
