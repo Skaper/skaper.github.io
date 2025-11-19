@@ -4,7 +4,7 @@ title: Varwin - No-Code VR Platform Development
 description: Middle Unity C# Developer
 img: assets/img/projects/varwin/cover.jpg
 importance: 5
-category: work
+category: work projects
 ---
 Aug 2021 – Aug 2022 | Team of 10+ developers | St. Petersburg, Russia
 

@@ -4,7 +4,7 @@ title: VR Roguelike Tower Defense Shooter
 description: Solo Unity Developer
 img: assets/img/projects/ultralab/cover.png
 importance: 4
-category: work
+category: work projects
 ---
 Ultralab | Oct 2022 – May 2023 | 8-month development cycle
 

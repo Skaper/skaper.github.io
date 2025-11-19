@@ -4,7 +4,7 @@ title: Industrial VR Safety Training Solutions
 description: Lead Unity Developer
 img: assets/img/projects/promvr/cover.jpg
 importance: 3
-category: work
+category: work projects
 ---
 May 2023 – Dec 2023 | Team of 9 (5 developers, 4 designers)
 

@@ -4,7 +4,7 @@ title: Standalone VR Gaming Wheel Support
 description: Industry-First Native USB Force Feedback Wheel Driver for Meta Quest
 img: assets/img/projects/aviar/wheelCover.png
 importance: 2
-category: work
+category: work projects
 ---
 ### Overview
 Developed the world's first native USB gaming wheel driver for standalone VR
