@@ -34,7 +34,7 @@ I build high-performance training simulations and games that solve real business
 
 - **For Gaming** — Solo-developed [JankerMan](https://www.meta.com/experiences/jankerman-alpha/6521195701244535/) VR roguelike from concept to AppLab release. Implemented full DOTS/ECS architecture achieving 72 FPS with hundreds of concurrent enemies on Meta Quest 2.
 
-- **For Enterprise** — Expanded ([Varwin](https://varwin.com/en/) visual programming platform by 25% serving 90+ clients across 24 countries. Built VR analytics tools for Jacobs and Auchan retail research.
+- **For Enterprise** — Expanded [Varwin](https://varwin.com/en/) visual programming platform by 25% serving 90+ clients across 24 countries. Built VR analytics tools for Jacobs and Auchan retail research.
 
 **Core Expertise:** Unity DOTS/ECS • DI • Meta Quest Optimization • Custom Physics & IK • Behavior Trees • Multiplayer Networking
 
