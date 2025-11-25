@@ -1,9 +1,9 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: resume (CV)
 nav: true
-nav_order: 5
+nav_order: 2
 cv_pdf: Daniil_Rostovskii_Unity_VR_Developer.pdf
 toc:
   sidebar: left
