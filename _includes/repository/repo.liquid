@@ -31,17 +31,142 @@
   {% assign max_lines = 2 %}
 {% endif %}
 
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.repository }}">
-    <img
-      class="only-light w-100"
-      alt="{{ include.repository }}"
-      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
-    >
-    <img
-      class="only-dark w-100"
-      alt="{{ include.repository }}"
-      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
-    >
+{% if site.repo_api_domain %}
+  {% assign api_domain = site.repo_api_domain %}
+{% else %}
+  {% assign api_domain = "github-readme-stats.vercel.app" %}
+{% endif %}
+
+<div class="repo text-center" style="flex: 0 0 calc(50% - 0.5rem); min-width: 280px; max-width: 400px; margin-bottom: 1rem;" data-repo="{{ include.repository }}">
+  <a href="https://github.com/{{ include.repository }}" class="repo-link" style="text-decoration: none; display: block; height: 100%;">
+    <div class="repo-card" style="border: 1px solid var(--global-border-color); border-radius: 8px; padding: 1rem; background: var(--global-bg-color); transition: transform 0.2s; height: 100%; display: flex; flex-direction: column;">
+      <div class="repo-stats-container" style="flex: 1; display: flex; align-items: center; justify-content: center; min-height: 120px;">
+        <img
+          class="only-light w-100 repo-stats-img"
+          alt="{{ include.repository }}"
+          src="https://{{ api_domain }}/api/pin/?username={{ repo_url.first }}&repo={{ repo_url.last }}&theme={{ site.repo_theme_light }}&show_owner={{ show_owner }}"
+          loading="lazy"
+          decoding="async"
+          style="display: block; max-width: 100%;"
+          onerror="this.style.display='none'; const fallback = this.closest('.repo-card').querySelector('.repo-fallback'); if(fallback) fallback.style.display='block'; this.closest('.repo-stats-container').style.display='none';"
+        >
+        <img
+          class="only-dark w-100 repo-stats-img"
+          alt="{{ include.repository }}"
+          src="https://{{ api_domain }}/api/pin/?username={{ repo_url.first }}&repo={{ repo_url.last }}&theme={{ site.repo_theme_dark }}&show_owner={{ show_owner }}"
+          loading="lazy"
+          decoding="async"
+          style="display: block; max-width: 100%;"
+          onerror="this.style.display='none'; const fallback = this.closest('.repo-card').querySelector('.repo-fallback'); if(fallback) fallback.style.display='block'; this.closest('.repo-stats-container').style.display='none';"
+        >
+      </div>
+      <div class="repo-description-below" style="margin-top: 0.75rem; text-align: center; display: none;">
+        <p class="repo-description-text" style="margin: 0; color: var(--global-text-color); opacity: 0.8; font-size: 0.85rem; line-height: 1.4;">
+          <span class="repo-description-loading-text" style="opacity: 0.6;">Loading description...</span>
+        </p>
+      </div>
+      <div class="repo-fallback" style="display: none; flex-direction: column; align-items: center; justify-content: center; text-align: center; width: 100%; flex: 1; min-height: 120px;" data-repo="{{ include.repository }}">
+        <h4 style="margin: 0 0 0.5rem 0; color: var(--global-text-color);">
+          <i class="fab fa-github" style="margin-right: 0.5rem;"></i>{{ repo_url.last }}
+        </h4>
+        <p style="margin: 0; color: var(--global-text-color); opacity: 0.7; font-size: 0.9rem;">
+          {% if show_owner %}{{ repo_url.first }}/{% endif %}{{ repo_url.last }}
+        </p>
+        <p class="repo-description" style="margin: 0.5rem 0; color: var(--global-text-color); opacity: 0.8; font-size: 0.85rem; line-height: 1.4;">
+          <span class="repo-description-loading" style="opacity: 0.6;">Loading description...</span>
+        </p>
+        <p style="margin: 0.5rem 0 0 0; color: var(--global-text-color); opacity: 0.6; font-size: 0.85rem;">
+          View on GitHub →
+        </p>
+      </div>
+    </div>
   </a>
 </div>
+
+<script>
+  // Fetch repository description from GitHub API
+  (function() {
+    function fetchRepoDescription(repoName, descriptionEl, loadingEl, maxLength) {
+      if (!repoName || !descriptionEl) return;
+      
+      maxLength = maxLength || 100;
+      
+      // Fetch description from GitHub API
+      fetch(`https://api.github.com/repos/${repoName}`)
+        .then(response => {
+          if (!response.ok) throw new Error('Failed to fetch');
+          return response.json();
+        })
+        .then(data => {
+          if (loadingEl) loadingEl.style.display = 'none';
+          
+          if (data.description) {
+            // Truncate description if too long
+            let desc = data.description;
+            if (desc.length > maxLength) {
+              desc = desc.substring(0, maxLength).trim() + '...';
+            }
+            descriptionEl.innerHTML = desc;
+          } else {
+            descriptionEl.innerHTML = '<span style="opacity: 0.5;">No description available</span>';
+          }
+        })
+        .catch(error => {
+          if (loadingEl) loadingEl.style.display = 'none';
+          descriptionEl.innerHTML = '<span style="opacity: 0.5;">Description unavailable</span>';
+        });
+    }
+    
+    // Fetch descriptions for fallback cards
+    const repoFallbacks = document.querySelectorAll('.repo-fallback[data-repo]');
+    repoFallbacks.forEach(function(fallback) {
+      const repoName = fallback.getAttribute('data-repo');
+      const descriptionEl = fallback.querySelector('.repo-description');
+      const loadingEl = fallback.querySelector('.repo-description-loading');
+      fetchRepoDescription(repoName, descriptionEl, loadingEl, 80);
+    });
+    
+    // Fetch descriptions for successful image loads
+    const repoCards = document.querySelectorAll('.repo[data-repo]');
+    repoCards.forEach(function(repoCard) {
+      const repoName = repoCard.getAttribute('data-repo');
+      const descriptionContainer = repoCard.querySelector('.repo-description-below');
+      const descriptionEl = repoCard.querySelector('.repo-description-text');
+      const loadingEl = repoCard.querySelector('.repo-description-loading-text');
+      
+      if (descriptionContainer && descriptionEl) {
+        // Check if images loaded successfully
+        const images = repoCard.querySelectorAll('.repo-stats-img');
+        let imagesLoaded = 0;
+        let imagesFailed = 0;
+        
+        images.forEach(function(img) {
+          if (img.complete) {
+            if (img.naturalHeight === 0) {
+              imagesFailed++;
+            } else {
+              imagesLoaded++;
+            }
+          } else {
+            img.addEventListener('load', function() {
+              imagesLoaded++;
+              if (imagesLoaded > 0 && imagesFailed === 0) {
+                descriptionContainer.style.display = 'block';
+                fetchRepoDescription(repoName, descriptionEl, loadingEl, 100);
+              }
+            });
+            img.addEventListener('error', function() {
+              imagesFailed++;
+            });
+          }
+        });
+        
+        // If images are already loaded, show description
+        if (imagesLoaded > 0 && imagesFailed === 0) {
+          descriptionContainer.style.display = 'block';
+          fetchRepoDescription(repoName, descriptionEl, loadingEl, 100);
+        }
+      }
+    });
+  })();
+</script>

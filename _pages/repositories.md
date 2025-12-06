@@ -10,7 +10,7 @@ nav_order: 4
 
 ## GitHub Repositories
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+<div class="repositories d-flex flex-wrap justify-content-center" style="gap: 1rem;">
   {% for repo in site.data.repositories.github_repos %}
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}
