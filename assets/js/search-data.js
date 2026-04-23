@@ -40,16 +40,31 @@ ninja.data = [{
           description: "Industry-First Native USB Force Feedback Wheel Driver for Meta Quest",
           section: "Projects",handler: () => {
               window.location.href = "/projects/aviar_wheel_project.html";
+            },},{id: "projects-inmoov-humanoid-robot-interactive-theater-system",
+          title: 'InMoov Humanoid Robot - Interactive Theater System',
+          description: "Full software stack for open-source humanoid robot used in live performances",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/inmoov_project.html";
             },},{id: "projects-industrial-vr-safety-training-solutions",
           title: 'Industrial VR Safety Training Solutions',
           description: "Lead Unity Developer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/promvr_project.html";
+            },},{id: "projects-full-scale-r2-d2-replica-interactive-event-robot",
+          title: 'Full-Scale R2-D2 Replica - Interactive Event Robot',
+          description: "Real-time controlled entertainment robot for live events",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/r2d2_project.html";
             },},{id: "projects-reabell-vr-space-game-development",
           title: 'reAbell - VR Space Game Development',
           description: "My first VR project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/reabell_project.html";
+            },},{id: "projects-robotrek-programming-amp-robotics-instructor",
+          title: 'Robotrek - Programming &amp;amp; Robotics Instructor',
+          description: "Curriculum Designer &amp; Instructor",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/robotrek_project.html";
             },},{id: "projects-vr-roguelike-tower-defense-shooter",
           title: 'VR Roguelike Tower Defense Shooter',
           description: "Solo Unity Developer",
