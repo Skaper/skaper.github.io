@@ -90,9 +90,23 @@
       ]
     },
     {
+      "name": "RobotrackRus",
+      "position": "Curriculum Designer & Programming Instructor",
+      "url": "https://robotrack-rus.ru/en/",
+      "startDate": "2019-01-01",
+      "endDate": "2021-08-01",
+      "summary": "Designed and delivered programming and robotics courses for children and teenagers (ages 6–17), covering four distinct tracks tailored to different age groups and skill levels.\nMentored students at regional robotics competitions and off-site events.",
+      "highlights": [
+        "Arduino robotics (ages 12–16): developed a full course curriculum around a 4WD Bluetooth robot platform (Keyestudio), including hardware assembly, C++ programming, and autonomous behavior design.",
+        "Java game development (ages 14–17): built a course from scratch with custom lesson plans and a lightweight 2D game engine written specifically for teaching OOP concepts. Course materials available on GitHub.",
+        "Scratch game design (ages 6–12): created an immersive curriculum introducing students to game industry roles - pixel art, level design, sound effects, and game design fundamentals.",
+        "LEGO Mindstorms (ages 6–12): hands-on robotics sessions combining physical building with visual programming.",
+      ]
+    },
+    {
       "name": "Freelance",
       "position": "Python Developer (Computer Vision)",
-      "url": "",
+      "url": "https://rent-robot.ru/",
       "startDate": "2018-06-01",
       "endDate": "2021-08-01",
       "summary": "Computer Vision and IoT Development",
