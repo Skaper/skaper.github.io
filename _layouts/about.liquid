@@ -76,5 +76,11 @@ layout: default
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
+
+    {% if page.qr_code %}
+      <p class="text-center mt-4">
+        <img src="{{ page.qr_code | relative_url }}" alt="QR code" style="max-width: 300px; width: 100%;">
+      </p>
+    {% endif %}
   </article>
 </div>

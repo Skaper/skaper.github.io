@@ -47,7 +47,7 @@
           src="https://{{ api_domain }}/api/pin/?username={{ repo_url.first }}&repo={{ repo_url.last }}&theme={{ site.repo_theme_light }}&show_owner={{ show_owner }}"
           loading="lazy"
           decoding="async"
-          style="display: block; max-width: 100%;"
+          style="max-width: 100%;"
           onerror="this.style.display='none'; const fallback = this.closest('.repo-card').querySelector('.repo-fallback'); if(fallback) fallback.style.display='block'; this.closest('.repo-stats-container').style.display='none';"
         >
         <img
@@ -56,7 +56,7 @@
           src="https://{{ api_domain }}/api/pin/?username={{ repo_url.first }}&repo={{ repo_url.last }}&theme={{ site.repo_theme_dark }}&show_owner={{ show_owner }}"
           loading="lazy"
           decoding="async"
-          style="display: block; max-width: 100%;"
+          style="max-width: 100%;"
           onerror="this.style.display='none'; const fallback = this.closest('.repo-card').querySelector('.repo-fallback'); if(fallback) fallback.style.display='block'; this.closest('.repo-stats-container').style.display='none';"
         >
       </div>
