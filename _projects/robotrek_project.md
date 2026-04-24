@@ -9,7 +9,7 @@ category: work projects
 2019 – 2021 | Robotrek | Balakovo, Russia
 
 ### Overview
-Taught programming and robotics at Robotrek — a franchised network of 100+ coding schools across Russia. Over two years, I designed and delivered four distinct course tracks for children and teenagers aged 6–17, each with original curricula and teaching materials developed from scratch. In my second year, I also helped management expand the school's course offerings.
+Taught programming and robotics at Robotrek (franchised network of 100+ coding schools across Russia) for over two years, working with children and teenagers aged 6–17. Course tracks included LEGO robotics and HUNA-MRT, alongside three original courses I designed from scratch: Scratch programming, Java game development, and Arduino robotics.
 
 Each course track was designed for a specific age group and skill level, with its own lesson structure, progression system, and learning goals. I ran multiple groups simultaneously, adapting my teaching approach to different ages and learning speeds.
 
@@ -29,7 +29,7 @@ Each course track was designed for a specific age group and skill level, with it
 
 **Platforms & Tools:** LEGO Mindstorms, Arduino, Scratch 3, Java, Swing, Processing, GIMP, Audacity, PixelArt Online tools
 
-**Self-built:** SKENGINE (custom 2D Java game engine), FlyShip (demo space shooter game), 26-lesson Java course, 20-lesson Arduino course, Scratch Game Design course
+**Self-built:** 30-lesson Java course + custom 2D Java game engine SKENGINE, 20-lesson Arduino course, Scratch Game Design course
 
 **Teaching Practices:** Curriculum design, lesson planning, age-appropriate pedagogy, hands-on project-based learning, student motivation systems, competition facilitation, progress assessment
 
@@ -38,27 +38,26 @@ Each course track was designed for a specific age group and skill level, with it
 ## Teaching
 
 ### Ages 6–9 — Construction & Logic Foundations [HUNA-MRT](https://www.myrobottime.com)
-- Designed and taught an introductory robotics course using Korean educational construction kits (similar to LEGO WeDo), focused on spatial thinking and basic programming logic
-- Structured each 80-minute class around a themed model: 15 minutes of topic introduction and presentation, 60 minutes of hands-on building with interactive instructions, followed by group games and competitions
-- Implemented a collectible card reward system to sustain motivation — students earned cards for good behavior, performance, and winning mini-games, exchangeable for prizes
-- Adapted teaching pace and complexity to individual students within group sessions
+- Taught an introductory course using HUNA-MRT educational construction kits (similar to LEGO WeDo), focused on spatial thinking and basic logic
+- Structured each 80-minute class around a themed model: 15 minutes of introduction and educational material, 60 minutes of hands-on building, followed by group games and competitions
+- Used a collectible card reward system to keep kids motivated - earned for good behavior, performance, and mini-game wins, exchangeable for prizes
+- Adapted pace and complexity to individual students within group sessions
 
-### Ages 9–12 — Arduino based Construction (Blockly) [HUNA-MRT](https://www.myrobottime.com/secondary)
-- Delivered Arduino-based robotics course using visual Blockly programming, covering sensors, variables, loops, conditional logic, and functions
-- Each class had its own theme and physical robot model, giving students a concrete, tangible goal every session
-- Organized in-class competitions and games to reinforce concepts and keep engagement high across the full 80-minute session
-- Helped students debug both hardware assembly and programming logic, developing the ability to explain technical concepts clearly to young learners
+### Ages 9–12 — Arduino-based Construction (Blockly) [HUNA-MRT](https://www.myrobottime.com/secondary)
+- Taught an Arduino-based course using visual Blockly programming, covering sensors, variables, loops, conditionals, and functions
+- Each class had its own theme and a matching physical model, giving students a concrete goal every session
+- Ran in-class competitions and games to reinforce concepts and keep engagement high across the full 80-minute session
+- Helped students debug both hardware assembly and code, building my ability to explain technical concepts clearly to young learners
 
 ### Ages 9–12 — LEGO Mindstorms
-- Ran a parallel Mindstorms track for the same age group, combining more advanced mechanical construction with programmable logic
-- Designed lesson sequences that gradually introduced more complex builds and behaviors, maintaining a consistent theme-per-class format
-- Balanced structured instruction with open exploration time, allowing students to experiment beyond the base model
-
+- Ran a parallel Mindstorms track for the same age group, combining mechanical construction with programmable logic
+- Lesson sequences that gradually introduced more complex builds, maintaining a theme-per-class format
+- Balanced structured instruction with open exploration time, letting students experiment beyond the base model
 ## Curriculum Design
 
 ### Ages 12–17 — DIY Robots: Arduino Course for Teens (self-designed course)
-- Designed and taught a 20-lesson Arduino programming course (~3–5 months) built around the [Keyestudio KS0192 4WD Bluetooth Multi-functional Car](https://wiki.keyestudio.com/Ks0192_keyestudio_4WD_Bluetooth_Multi-functional_Car), targeting high-school students with no prior experience
-- Students wrote real Arduino C++ from lesson one — no block-based tools. Each lesson followed a consistent rhythm: new concept → standalone sketch → exercise building on previous code
+- Designed and taught a 20-lesson Arduino programming course (~3–5 months) built around the Arduino-based Bluetooth 4WD car with varieties of sensors, targeting high-school students with no prior experience
+- Students wrote real Arduino C++ code from lesson one — no block-based tools. Each lesson followed a consistent rhythm: new concept → standalone sketch → exercise building on previous code
 - Structured the course in five phases:
   - **Foundations (lessons 1–4):** Arduino IDE, digital I/O, conditionals with IR sensor, Serial Monitor
   - **Sensors & actuators (5–9):** ultrasonic rangefinder, IR remote, servo motors and PWM, Bluetooth (HC-06) with Android companion app, I2C LCD display
@@ -87,7 +86,7 @@ Each course track was designed for a specific age group and skill level, with it
 - Every 2–3 classes produced a complete new game, maintaining a high sense of achievement and momentum throughout the course
 
 ### Ages 13–17 — Java Game Development (self-designed course)
-- Designed a 13-lesson Java programming course from the ground up, taking students from zero to building GUI desktop applications and an introductory Arduino sketch
+- Designed a 30 lesson Java programming course from the ground up, taking students from zero to building GUI desktop applications and an introductory Arduino sketch
 - Course arc: variables and types → loops and user input → arrays → OOP and classes → Swing GUI (calculator, chatbot, dialogs) → C and Arduino introduction
 - Oriented the entire curriculum around game development to keep the material relevant and motivating for the age group; kept groups small (up to 10 students) to provide individual attention
 - Authored all lesson plans, exercises, and reference materials independently — published on [GitHub](https://github.com/Skaper/java_lessons)
