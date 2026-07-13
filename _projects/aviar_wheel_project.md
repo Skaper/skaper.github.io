@@ -7,10 +7,10 @@ importance: 2
 category: work projects
 ---
 ### Overview
-Developed the world's first native USB gaming wheel driver for standalone VR
-headsets, enabling force feedback steering wheel support on Meta Quest without
-requiring a PC. This breakthrough eliminated the €1,000+ PC requirement per
-training station and enabled fully portable VR vehicle simulation setups.
+Developed the first native USB gaming wheel driver for standalone VR headsets:
+force feedback steering wheel support on Meta Quest without a PC. This removed
+the €1,000+ PC requirement per training station and made VR vehicle simulation
+setups fully portable.
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
@@ -31,11 +31,10 @@ Android USB Host API, Java Native Interface (JNI), Unity Native Plugins, Python
 ### The Challenge
 
 Gaming steering wheels with force feedback had zero support on Android-based
-systems. Unlike PC platforms with mature driver ecosystems, Android lacked any
-infrastructure for these devices—not even basic input recognition. No public
-documentation existed for the proprietary communication protocols used by major
-wheel manufacturers (Logitech, Thrustmaster), making native Android support
-seemingly impossible.
+systems. Unlike PC, where mature drivers exist, Android had no infrastructure
+for these devices — not even basic input recognition. The communication
+protocols used by major wheel manufacturers (Logitech, Thrustmaster) are
+proprietary and undocumented, so there was nothing to build on.
 
 **Industry Gap:** All competing VR training solutions required expensive PCVR
 setups. No standalone VR application had ever achieved native wheel support.
@@ -68,10 +67,9 @@ setups. No standalone VR application had ever achieved native wheel support.
 
 - Built complete Java-based driver emulation as Android Native Plugin for Unity
 - Implemented full USB HID protocol handling through Android USB Host API
-- Developed comprehensive force feedback support (spring, damper, friction,
-  constant force effects)
-- Designed Unity-facing API to expose wheel as standard Joystick in Unity Input
-  System, enabling seamless integration into any Unity project
+- Implemented force feedback effects: spring, damper, friction, constant force
+- Designed Unity-facing API exposing the wheel as a standard Joystick in the
+  Unity Input System, so any Unity project can use it without special handling
 
 ### Architecture
 
@@ -84,19 +82,16 @@ setups. No standalone VR application had ever achieved native wheel support.
 ## Business Impact
 
 **Industry First:**
-Delivered the market's only standalone VR application with native USB force
-feedback wheel support—a capability that remains unavailable in competing
-solutions.
+The only standalone VR application with native USB force feedback wheel
+support. Competing solutions still don't have it.
 
 ### Business Value
 
 - Eliminated €1,000+ PC hardware requirement per training station
 - Enabled fully portable demo setups for trade shows and client presentations
-- Increased training immersion through realistic force feedback during vehicle
-  operations
-- Modular architecture allows rapid support for additional wheel models with
-  minimal protocol adaptation
+- Real force feedback during vehicle operations instead of a passive wheel
+- Modular architecture: supporting a new wheel model mostly means adapting its
+  protocol, not rewriting the driver
 
-**Reception:** Industry professionals at aviation trade shows recognized this as
-a significant breakthrough, particularly valuing the elimination of PC
-dependency for mobile training deployments.
+**Reception:** At aviation trade shows, the part that got attention was the
+missing PC — mobile training deployments no longer needed one.

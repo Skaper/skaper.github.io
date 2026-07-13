@@ -26,13 +26,13 @@ Unity, C#, Zenject, UniRx, OpenXR, Meta XR SDK, PICO SDK, Bitrix24 API, JSON-bas
 </div>
 
 ### Major Achievement
-- **Unified Architecture & Anti-Piracy System** - Inherited 12 independent training simulators with disparate codebases and architectures
-- Architected and implemented complete platform unification enabling modular product delivery and robust license protection
+- **Unified Architecture & Anti-Piracy System** - Inherited 12 independent training simulators, each with its own codebase and architecture
+- Unified them into a single platform with modular product delivery and license protection
 
 ### Technical Approach
 
 - Designed modular initialization architecture using Zenject dependency injection, consolidating 12 separate projects into unified codebase with compile-time configuration system
-- Built comprehensive licensing system with online/offline verification through Bitrix24 CRM integration and hardware-based protection
+- Built licensing system with online/offline verification through Bitrix24 CRM integration and hardware-based protection
 - Developed CRM monitoring dashboard for tracking client license usage and deployment analytics
 - Created automated build pipeline on dedicated build machine supporting multi-platform compilation (Meta Quest, PICO, PCVR)
 
@@ -67,13 +67,13 @@ Unity, C#, Zenject, UniRx, OpenXR, Meta XR SDK, PICO SDK, Bitrix24 API, JSON-bas
 ### Cross-Platform Optimization
 
 - Maintained single codebase supporting mobile VR (Meta Quest, PICO) and PCVR with build configuration tooling
-- Implemented comprehensive graphics optimizations: occlusion culling, LOD systems, texture atlasing/compression, baked lighting, draw call batching
-- Achieved target frame rates across standalone and PC VR platforms
+- Graphics optimizations: occlusion culling, LOD systems, texture atlasing/compression, baked lighting, draw call batching
+- Held target frame rates on both standalone and PC VR
 
 ### UI/UX Systems
 
 - Designed unified interface package standardizing UX across all 12 training modules
-- Developed intuitive VR interaction patterns for industrial training contexts
+- Developed VR interaction patterns for trainees who had never worn a headset before
 
 <div class="col-sm mt-3 mt-md-0">
   {% include figure.liquid loading="eager" path="assets/img/projects/promvr/2.jpg" title="3" class="img-fluid rounded z-depth-1" %}
@@ -98,10 +98,10 @@ Unity, C#, Zenject, UniRx, OpenXR, Meta XR SDK, PICO SDK, Bitrix24 API, JSON-bas
 
 ## Business Impact
 
-- Enabled flexible modular product offerings—clients could purchase any combination of training modules
-- Streamlined client deployments and eliminated deployment complexity
-- Protected revenue through anti-piracy measures, preventing unlicensed product copying
-- Reduced ongoing maintenance overhead by consolidating codebases
+- Clients could purchase any combination of training modules instead of the full suite
+- Simplified client deployments
+- Anti-piracy measures stopped unlicensed copying of the product
+- One codebase to maintain instead of twelve
 
 <div class="project-video">
   <iframe

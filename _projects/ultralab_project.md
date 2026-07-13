@@ -9,7 +9,7 @@ category: work projects
 Ultralab | Oct 2022 – May 2023 | 8-month development cycle
 
 ### Overview
-Single-handedly developed sci-fi VR shooter combining tower defense, bullet-hell, and roguelike elements for Meta Quest and PCVR. Led complete development from concept through AppLab release, conducting extensive playtesting with 150+ users and iterating based on analytics and community feedback.
+Solo-developed a sci-fi VR shooter combining tower defense, bullet-hell, and roguelike elements for Meta Quest and PCVR — from concept through AppLab release. Ran playtests with 150+ users and iterated on analytics and community feedback.
 
 ### Tech Stack
 Unity, C# (DOTS/ECS), Burst Compiler, C# Job System, FMOD, Meta XR SDK, OpenXR, Boids Algorithm, Custom Procedural Generation, Unity Timeline/Animator
@@ -51,25 +51,25 @@ Gameplay: Sci-fi bullet-hell tower defense featuring swarm-based enemy AI, 12 fa
 
 #### High-Performance Swarm AI (Unity DOTS/ECS)
 
-- Architected full ECS implementation managing hundreds of simultaneous enemies and projectiles at 72fps on Meta Quest 2
-- Developed custom flocking behavior using Boids algorithm for coordinated swarm movement patterns
-- Implemented ECS-based pathfinding system optimized for large-scale enemy coordination
-- Achieved performance through ECS job system parallelization, burst compilation, and data-oriented design patterns
+- Built full ECS implementation running hundreds of simultaneous enemies and projectiles at 72fps on Meta Quest 2
+- Developed custom flocking behavior using the Boids algorithm for coordinated swarm movement
+- Implemented ECS-based pathfinding for large-scale enemy coordination
+- The performance comes from job system parallelization, Burst compilation, and data-oriented design
 
 ### Massive-Scale Object Optimization
 
-- Built sophisticated object pooling system for projectiles, enemies, and VFX to eliminate runtime allocations
-- Implemented spatial partitioning (octree/grid-based) for efficient collision detection and culling
-- Leveraged ECS component archetype design for cache-friendly data layouts, minimizing memory access latency
-- Utilized Unity's C# Job System with Burst compiler for multi-threaded AI calculations and physics
-- Applied aggressive LOD systems and frustum culling for rendering optimization
+- Built object pooling for projectiles, enemies, and VFX to eliminate runtime allocations
+- Implemented spatial partitioning (octree/grid-based) for collision detection and culling
+- Designed ECS component archetypes for cache-friendly data layouts
+- Used the C# Job System with Burst compiler for multi-threaded AI and physics
+- Aggressive LOD and frustum culling
 - Batched draw calls through GPU instancing for identical enemy meshes and projectile effects
-- Employed asynchronous scene streaming to manage memory footprint across procedurally generated arenas
+- Asynchronous scene streaming to keep memory in check across procedurally generated arenas
 
 ### Weapon Systems & Combat
 
-- Designed 12 distinct weapon types with unique VR interaction models: laser beams, ballistic projectiles, energy weapons, grenades, explosive ordnance, gravity traps, and black hole generators
-- Each weapon featured custom physics behaviors, visual effects, and tactical advantages against swarm patterns
+- Designed 12 weapon types, each with its own VR interaction model: laser beams, ballistic projectiles, energy weapons, grenades, explosive ordnance, gravity traps, and black hole generators
+- Each weapon has its own physics behavior and a tactical role against particular swarm patterns
 
 ### Procedural Generation & Roguelike Systems
 
@@ -79,15 +79,14 @@ Gameplay: Sci-fi bullet-hell tower defense featuring swarm-based enemy AI, 12 fa
 
 ### Audio Design (FMOD Integration)
 
-- Integrated comprehensive FMOD audio system with adaptive music responding to combat intensity
+- Integrated FMOD with adaptive music that responds to combat intensity
 - Implemented 3D positional audio for enemy localization and weapon feedback
-- Created dynamic soundscapes enhancing immersion and spatial awareness
 
 ### Data-Driven Iteration
 
-- Established analytics pipeline tracking retention, session length, difficulty spikes, and player progression
-- Conducted 150+ playtests with recorded gameplay analysis and community surveys via Discord
-- Iteratively refined difficulty curves, weapon balance, and progression pacing based on quantitative metrics and qualitative feedback
+- Set up analytics tracking retention, session length, difficulty spikes, and player progression
+- Ran 150+ playtests with recorded gameplay analysis and community surveys via Discord
+- Tuned difficulty curves, weapon balance, and progression pacing on the combination of metrics and player feedback
 
 ### Cross-Platform Development
 
@@ -99,4 +98,4 @@ Gameplay: Sci-fi bullet-hell tower defense featuring swarm-based enemy AI, 12 fa
 ## Additional Contributions
 
 Contributed prototype work, technical consultation, and testing for [Ultra Boxing VR](https://ultraboxingvr.com/) 
-Advised Ultralab teams on VR development best practices including performance optimization strategies, comfort considerations, and interaction design patterns.
+Advised other Ultralab teams on VR performance, comfort, and interaction design.

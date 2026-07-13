@@ -25,19 +25,22 @@ projects:
 ---
 
 ## DANIIL ROSTOVSKII
-Unity C# Developer with 5+ years crafting immersive VR, AR, and MR experiences. **Based in Tokyo, Japan**.
+Software engineer with 5+ years building real-time interactive systems — games, VR training platforms, robotics. The kind of software where a missed frame is a bug and the hardware budget is fixed. **Based in Tokyo, Japan**.
 
-I build high-performance training simulations and games that solve real business problems:
+What I've shipped:
 
-- **For Aviation** — Delivered 10+ VR scenarios for Lufthansa, Swissport, DHL at [AVIAR](https://www.aviar.nl/). Reverse-engineered USB protocols to achieve industry-first force feedback wheel support on standalone VR, eliminating €1,000+ PC requirement per station.
+- **Systems & reverse engineering** — Reverse-engineered undocumented USB HID protocols and wrote an Android driver (Java/JNI) for force-feedback steering wheels at [AVIAR](https://www.aviar.nl/), where I delivered 10+ VR training scenarios for Lufthansa, Swissport, and DHL. First standalone VR product with native wheel support — removed the €1,000+ PC per training station.
 
-- **For Industry** — Led development of 12 safety compliance modules at [PromVR](https://promvr.net/) serving oil & gas companies. Architected unified platform consolidating 12 independent simulators using Zenject DI.
+- **Architecture & platform consolidation** — Merged 12 independent safety training simulators into one modular codebase at [PromVR](https://promvr.net/): Zenject DI, licensing with CRM integration, automated multi-platform builds. One codebase to maintain instead of twelve.
 
-- **For Gaming** — Solo-developed [JankerMan](https://www.meta.com/experiences/jankerman-alpha/6521195701244535/) VR roguelike from concept to AppLab release. Implemented full DOTS/ECS architecture achieving 72 FPS with hundreds of concurrent enemies on Meta Quest 2.
+- **Performance engineering** — Solo-developed [JankerMan](https://www.meta.com/experiences/jankerman-alpha/6521195701244535/), a VR roguelike on full DOTS/ECS: hundreds of concurrent enemies at 72 FPS on mobile-class hardware (Meta Quest 2) — data-oriented design, Burst, Job System.
 
-- **For Enterprise** — Expanded [Varwin](https://varwin.com/en/) visual programming platform by 25% serving 90+ clients across 24 countries. Built VR analytics tools for Jacobs and Auchan retail research.
+- **Developer tools & SDKs** — Extended the [Varwin](https://varwin.com/en/) no-code platform with 40+ visual programming blocks (+25% standard library) and 100+ pages of SDK documentation, used by 90+ clients across 24 countries. Built VR analytics tools for Jacobs and Auchan retail research.
 
-**Core Expertise:** Unity DOTS/ECS • DI • Meta Quest Optimization • Custom Physics & IK • Behavior Trees • Multiplayer Networking
+**Languages:** C# • Python • Java • C/C++ (embedded)
 
-**Architecture:** Dependency Injection (DI) • Zenject • UniRx • Object-Oriented Programming (OOP) •  Design Patterns • SOLID Principles.
-Open to: VR/XR Development | Game Development | Enterprise C#/.NET
+**Engineering:** Unity DOTS/ECS (Burst, Job System) • Multiplayer Networking • Custom Physics & IK • Behavior Trees • Dependency Injection (Zenject) • UniRx/UniTask • SOLID
+
+**Also worked with:** ROS • OpenCV • Electron/IPC • REST & CRM integrations • CI/CD
+
+Open to: Software Engineering | Game & XR Development | Real-time Systems

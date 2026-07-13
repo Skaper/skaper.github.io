@@ -12,10 +12,9 @@ related_publications: false
 _B2B VR training platform serving global aviation industry clients including
 Lufthansa, Swissport, DHL, and airlines worldwide_
 ### Overview
-Architected and delivered 10+ interactive training scenarios for professional
-aviation ground operations, implementing full-featured simulations of
-specialized equipment (Highloader, Beltloader, Trepel) with realistic physics,
-AI systems, and intuitive VR controls.
+Built and shipped 10+ training scenarios for aviation ground operations:
+simulations of specialized equipment (Highloader, Beltloader, Trepel) with
+realistic physics, AI-driven vehicles and NPCs, and VR controls.
 
 ### Technical Stack
 Unity 6, URP, DOTS/Entities, Meta XR/OpenXR/PICO SDK, ObiPhysics, 
@@ -36,24 +35,22 @@ UniTask/UniRx, DOTween, RootMotion, Addressables
 
 ## Core Technical Contributions
 
-- **Advanced Physics & IK Systems** - Engineered custom inverse kinematics for
-Highloader lift mechanisms and realistic cargo handling. Implemented Contacts
-Modification API for accurate belt conveyor physics and roller systems,
-optimizing integration with Unity DOTS/ECS architecture. Developed
-rope/cable/hose simulations using Obi Physics for cargo securing and equipment
+- **Physics & IK** - Wrote custom inverse kinematics for Highloader lift
+mechanisms and cargo handling. Used the Contacts Modification API for belt
+conveyor and roller physics, integrated with the DOTS/ECS setup. Built
+rope/cable/hose simulations on Obi Physics for cargo securing and equipment
 operations.
 
-- **Ground Vehicle Operations** - Created comprehensive vehicle control systems
-supporting multiple input methods (physical USB steering wheels, virtual
-controls, joysticks) with mixed reality integration via Passthrough API.
-Researched and implemented motion sickness mitigation techniques including
-camera vignetting, visual anchoring, velocity constraints, and vehicle
-stabilization to ensure comfortable extended training sessions.
+- **Ground Vehicle Operations** - Built vehicle controls supporting physical
+USB steering wheels, virtual controls, and joysticks, with mixed reality via
+the Passthrough API. Implemented motion sickness mitigation — camera
+vignetting, visual anchoring, velocity constraints, vehicle stabilization — so
+trainees can stay in the headset through long sessions.
 
 - **AI & Behavior Systems** - Built custom action-based behavior tree framework
 integrated with DOTS/ECS for NPC drivers and autonomous vehicles. Implemented
-NavMesh-based navigation with gesture recognition for marshalling interactions,
-enabling realistic coordination between player and AI-controlled ground crew.
+NavMesh-based navigation with gesture recognition for marshalling, so the
+player and AI ground crew can coordinate the way real crews do.
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
@@ -67,11 +64,11 @@ enabling realistic coordination between player and AI-controlled ground crew.
   conditions.
 </div>
 
-- **Performance Optimization** - Architected ECS system execution pipeline with
-layered presentation/simulation groups. Implemented Asynchronous SpaceWarp with
-selective exclusions for fast-moving objects, maintaining target frame rates
-across Meta Quest and PICO platforms. Utilized Unity Profiler, OVR Metrics Tool,
-and Meta Quest Developer Hub for performance analysis.
+- **Performance Optimization** - Designed the ECS system execution pipeline
+with layered presentation/simulation groups. Implemented Asynchronous SpaceWarp
+with selective exclusions for fast-moving objects to hold target frame rates on
+Meta Quest and PICO. Profiled with Unity Profiler, OVR Metrics Tool, and Meta
+Quest Developer Hub.
 
 
 ### Complex Training Scenarios
@@ -97,8 +94,8 @@ operations
 
 ---
 ## Business Impact:
-**Industry First Achievement** - Reverse-engineered proprietary USB HID
-protocols and developed custom Java-Unity driver plugin, delivering the
-market's first standalone VR headset application with native force-feedback
-steering wheel support—a capability unavailable in any competing solution.
+**Industry First** - Reverse-engineered proprietary USB HID protocols and
+built a custom Java-Unity driver plugin. The result: the first standalone VR
+headset application with native force-feedback steering wheel support.
+Competing solutions still require a PC.
 
