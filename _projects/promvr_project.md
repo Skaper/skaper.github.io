@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Industrial VR Safety Training Solutions
+title: Industrial Safety Training Solutions
 description: Lead Unity Developer
 img: assets/img/projects/promvr/cover.jpg
 importance: 3

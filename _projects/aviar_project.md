@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Aviation VR Training Platform
-description: Senior Unity/VR Developer
+title: Aviation Training Platform
+description: Senior Unity Developer
 img: assets/img/projects/aviar/cover.jpg
 importance: 1
 category: work projects

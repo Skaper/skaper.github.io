@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Varwin - No-Code VR Platform Development
+title: Varwin - No-Code Game Development Platform
 description: Middle Unity C# Developer
 img: assets/img/projects/varwin/cover.jpg
 importance: 5
