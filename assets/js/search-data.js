@@ -30,14 +30,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "projects-aviation-vr-training-platform",
-          title: 'Aviation VR Training Platform',
-          description: "Senior Unity/VR Developer",
+        },{id: "projects-aviation-training-platform",
+          title: 'Aviation Training Platform',
+          description: "Senior Unity Developer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/aviar_project.html";
-            },},{id: "projects-standalone-vr-gaming-wheel-support",
-          title: 'Standalone VR Gaming Wheel Support',
-          description: "Industry-First Native USB Force Feedback Wheel Driver for Meta Quest",
+            },},{id: "projects-reverse-engineering-gaming-steering-wheels",
+          title: 'Reverse Engineering Gaming Steering Wheels',
+          description: "USB HID protocol reverse engineering and a custom Android force feedback driver",
           section: "Projects",handler: () => {
               window.location.href = "/projects/aviar_wheel_project.html";
             },},{id: "projects-inmoov-humanoid-robot-interactive-theater-system",
@@ -45,8 +45,8 @@ ninja.data = [{
           description: "Full software stack for open-source humanoid robot used in live performances",
           section: "Projects",handler: () => {
               window.location.href = "/projects/inmoov_project.html";
-            },},{id: "projects-industrial-vr-safety-training-solutions",
-          title: 'Industrial VR Safety Training Solutions',
+            },},{id: "projects-industrial-safety-training-solutions",
+          title: 'Industrial Safety Training Solutions',
           description: "Lead Unity Developer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/promvr_project.html";
@@ -65,13 +65,18 @@ ninja.data = [{
           description: "Curriculum Designer &amp; Instructor",
           section: "Projects",handler: () => {
               window.location.href = "/projects/robotrek_project.html";
+            },},{id: "projects-tiny-survivor-browser-roguelike-for-web-game-platforms",
+          title: 'Tiny Survivor - Browser Roguelike for Web Game Platforms',
+          description: "Vampire Survivors-like built in Unity for WebGL and web game publishers",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tinysurvivor_project.html";
             },},{id: "projects-vr-roguelike-tower-defense-shooter",
           title: 'VR Roguelike Tower Defense Shooter',
           description: "Solo Unity Developer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ultralab_project.html";
-            },},{id: "projects-varwin-no-code-vr-platform-development",
-          title: 'Varwin - No-Code VR Platform Development',
+            },},{id: "projects-varwin-no-code-game-development-platform",
+          title: 'Varwin - No-Code Game Development Platform',
           description: "Middle Unity C# Developer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/varwin_project.html";
