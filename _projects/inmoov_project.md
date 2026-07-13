@@ -3,7 +3,7 @@ layout: page
 title: InMoov Humanoid Robot - Interactive Theater System
 description: Full software stack for open-source humanoid robot used in live performances
 img: assets/img/projects/inmoov/cover.jpg
-importance: 3
+importance: 4
 category: personal projects
 published: true
 ---

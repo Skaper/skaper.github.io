@@ -3,7 +3,7 @@ layout: page
 title: reAbell - VR Space Game Development
 description: My first VR project
 img: assets/img/projects/reabell/cover.png
-importance: 1
+importance: 2
 category: personal projects
 published: true
 ---
