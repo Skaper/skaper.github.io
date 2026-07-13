@@ -25,6 +25,9 @@ Tiny Survivor is a top-down auto-attacking roguelike (a Vampire Survivors-like) 
 **Play in browser:**
 - [skaperdev.itch.io/tiny-survivor](https://skaperdev.itch.io/tiny-survivor)
 
+**Source code:**
+- [BlockSurvivor on GitHub](https://github.com/Skaper/BlockSurvivor)
+
 ### Technical Stack
 
 Unity 6, C#, URP 2D, FMOD Studio, BulletPro, Newtonsoft.Json, TextMesh Pro, custom responsive WebGL template
