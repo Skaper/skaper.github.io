@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Varwin - No-Code VR Platform Development
+title: Varwin - No-Code Game Development Platform
 description: Middle Unity C# Developer
 img: assets/img/projects/varwin/cover.jpg
 importance: 5
@@ -14,7 +14,7 @@ Worked across two specialized teams:
 - **Core Platform** (engine features, VR headset support, service integrations)
 - **Client Projects** (custom simulators, interactive mechanics, industrial training applications).
 
-Expanded platform capabilities through 40+ new Blockly visual programming blocks, comprehensive SDK documentation, and production delivery of 4 major VR applications for industrial training and retail analytics.
+Added 40+ new Blockly visual programming blocks to the platform, wrote 100+ pages of SDK documentation, and shipped 4 major VR applications for industrial training and retail analytics.
 
 ### Technical Stack
 
@@ -39,10 +39,10 @@ Expanded platform capabilities through 40+ new Blockly visual programming blocks
 ## Core Platform Contributions
 
 ### Visual Programming System Expansion
-- Engineered 40+ new Blockly visual programming blocks integrated with Unity backend, expanding the standard library by 25% and enabling non-technical users to create complex interactive scenarios
-- Developed comprehensive object movement system including transform manipulation, Bezier curve path following with speed/easing/looping controls, Unity NavMesh-based AI navigation, and physics-based motion
-- Designed and implemented interactive SDK objects becoming part of standard Varwin library: hydraulic doors, elevator platforms, button sequence mechanisms, dynamic light sources, and NPC dialogue systems
-- Maintained and enhanced reflection-based communication system between Unity and Electron, ensuring seamless metadata generation for automatic Blockly block creation from C# object definitions
+- Built 40+ new Blockly visual programming blocks integrated with the Unity backend, expanding the standard library by 25% so non-technical users could build more complex interactive scenarios
+- Developed the object movement system: transform manipulation, Bezier curve path following with speed/easing/looping controls, Unity NavMesh-based AI navigation, and physics-based motion
+- Designed and implemented interactive SDK objects that became part of the standard Varwin library: hydraulic doors, elevator platforms, button sequence mechanisms, dynamic light sources, and NPC dialogue systems
+- Maintained the reflection-based communication system between Unity and Electron that generates Blockly blocks automatically from C# object definitions
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
@@ -62,15 +62,15 @@ Expanded platform capabilities through 40+ new Blockly visual programming blocks
 - Utilized Unity Profiler and external frame debugging tools to analyze rendering bottlenecks and implement performance improvements for mobile VR hardware constraints
 
 ### Object Versioning & Migration System
-- Contributed to object versioning architecture enabling backward compatibility during platform evolution
-- Implemented migration scripts allowing projects to upgrade seamlessly as platform capabilities expanded
+- Contributed to object versioning architecture keeping old projects working as the platform evolved
+- Implemented migration scripts so existing projects could upgrade without manual changes
 - Supported platform transition from Unity 2018 to 2021 without breaking existing client projects
 
-### Comprehensive SDK Documentation
-- Authored 100+ pages of technical documentation for public developer portal (docs.varwin.com) covering SDK API reference, core architecture patterns, and development workflows
-- Documented Unity-Electron communication protocols, Blockly integration architecture, and SDK build pipeline
-- Created initialization flow diagrams illustrating startup sequences, object loading procedures, and scene management lifecycle
-- Developed tutorials and example projects demonstrating SDK usage patterns and best practices
+### SDK Documentation
+- Authored 100+ pages of technical documentation for the public developer portal (docs.varwin.com): SDK API reference, core architecture patterns, and development workflows
+- Documented Unity-Electron communication protocols, Blockly integration architecture, and the SDK build pipeline
+- Created initialization flow diagrams covering startup sequences, object loading, and the scene management lifecycle
+- Wrote tutorials and example projects showing SDK usage patterns
 
 ### Client Project Delivery
 
@@ -91,10 +91,10 @@ Expanded platform capabilities through 40+ new Blockly visual programming blocks
 </div>
 
 #### Naval Museum - Interactive 360° Virtual Tour
-- Engineered timeline-based interactive system synchronizing 3D exhibits with 360° video playback of military vessel converted to museum
+- Built timeline-based interactive system synchronizing 3D exhibits with 360° video playback of a military vessel converted to a museum
 - Developed event triggering mechanism activating interactive 3D models, information overlays, and audio narration at precise video timestamps
-- Implemented navigation system enabling seamless transitions between panoramic viewpoints and interactive exhibit exploration
-- Created immersive virtual tour enabling remote visitors to experience vessel interiors inaccessible in physical visits
+- Implemented navigation between panoramic viewpoints and interactive exhibits
+- The tour lets remote visitors see vessel interiors that are closed off during physical visits
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
@@ -126,7 +126,7 @@ Expanded platform capabilities through 40+ new Blockly visual programming blocks
 - Engineered physics-based shopping cart mechanics enabling realistic product selection, basket placement, and checkout simulation
 - Optimized for standalone Meta Quest 2 deployment eliminating PC requirements for in-store installations
 - Implemented product placement testing scenarios capturing customer preferences through actual purchase decisions in virtual environments
-- Created deployment-ready VR experience suitable for public retail environments with intuitive controls for untrained users
+- Made the controls simple enough for shoppers who had never held a VR controller — the app ran unattended on the store floor
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
@@ -140,6 +140,6 @@ Expanded platform capabilities through 40+ new Blockly visual programming blocks
 ---
 
 ## Business Impact
-- Expanded platform capabilities by 25% through 40+ Blockly blocks, enabling creation of more sophisticated VR scenarios without developer involvement
-- SDK documentation (100+ pages) improved developer onboarding and reduced support overhead across platform ecosystem
+- Expanded the standard block library by 25% (40+ Blockly blocks), letting users build more complex VR scenarios without a developer
+- SDK documentation (100+ pages) improved developer onboarding and reduced support load
 - Standard library objects became reusable assets across 90+ enterprise projects serving clients in 24 countries

@@ -3,7 +3,7 @@ layout: page
 title: Full-Scale R2-D2 Replica - Interactive Event Robot
 description: Real-time controlled entertainment robot for live events
 img: assets/img/projects/r2d2/cover.jpg
-importance: 2
+importance: 3
 category: personal projects
 published: true
 ---

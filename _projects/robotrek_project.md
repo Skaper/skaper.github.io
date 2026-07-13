@@ -47,7 +47,7 @@ Each course track was designed for a specific age group and skill level, with it
 - Taught an Arduino-based course using visual Blockly programming, covering sensors, variables, loops, conditionals, and functions
 - Each class had its own theme and a matching physical model, giving students a concrete goal every session
 - Ran in-class competitions and games to reinforce concepts and keep engagement high across the full 80-minute session
-- Helped students debug both hardware assembly and code, building my ability to explain technical concepts clearly to young learners
+- Helped students debug both hardware assembly and code — half the job was explaining why something doesn't work to a ten-year-old without doing it for them
 
 ### Ages 9–12 — LEGO Mindstorms
 - Ran a parallel Mindstorms track for the same age group, combining mechanical construction with programmable logic
@@ -83,7 +83,7 @@ Each course track was designed for a specific age group and skill level, with it
 - Structured each project to include four roles: **Programmer** (logic and mechanics), **Artist** (pixel art in GIMP and online tools), **Level Designer** (building levels from created assets), and **Audio Designer** (sound effects in Audacity)
 - Introduced students to real game industry concepts — mechanics, art styles, professional roles — using examples from well-known games
 - Developed a clear learning progression: early classes built games together step by step; mid-course students received project briefs and worked semi-independently; final project was fully open-ended — students formed their own teams, chose their roles, and built original games
-- Every 2–3 classes produced a complete new game, maintaining a high sense of achievement and momentum throughout the course
+- Every 2–3 classes produced a complete new game, so students always had something finished to show at home
 
 ### Ages 13–17 — Java Game Development (self-designed course)
 - Designed a 30 lesson Java programming course from the ground up, taking students from zero to building GUI desktop applications and an introductory Arduino sketch
