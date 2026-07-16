@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Daniil Rostovskii",
-    "label": "Unity & VR/XR Developer",
+    "label": "Software Engineer | C# | Unity | Python",
     "image": "",
     "email": "skaper.rtt@gmail.com",
     "phone": "+81 70-8510-5939",
     "url": "https://skaper.github.io",
-    "summary": "Unity & VR/XR Developer with 5+ years building immersive training simulations and games. Expertise in Unity DOTS/ECS architecture, Meta Quest optimization (72-90 FPS), and cross-platform VR deployment. Delivered 10+ B2B training scenarios for aviation clients including Lufthansa, Swissport, and DHL. Achieved industry-first native USB force feedback wheel support on standalone VR headsets. Eligible to work in Japan.",
+    "summary": "Software Engineer with 6 years designing and delivering complex interactive systems across simulation, game development, and robotics domains. Strong expertise in C# software architecture (ECS/DOTS, Dependency Injection, SOLID principles), REST API integration, database design, and enterprise B2B delivery. Shipped production systems for Lufthansa, Swissport, and DHL; built AI-assisted development tooling on Claude API and MCP; developed computer vision pipelines for robotics on Linux; built and taught with a custom Java game engine. Experienced with .NET, Entity Framework, PostgreSQL, Python, Java, and Unity. Open to C#/.NET, game development, and systems engineering roles.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -17,8 +17,8 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "daniil-rostovsky-99457a149",
-        "url": "https://www.linkedin.com/in/daniil-rostovsky-99457a149"
+        "username": "daniil-rostovskii-99457a149",
+        "url": "https://www.linkedin.com/in/daniil-rostovskii-99457a149"
       },
       {
         "network": "GitHub",
@@ -30,18 +30,24 @@
   "work": [
     {
       "name": "AVIAR",
-      "position": "Unity C# Developer",
+      "position": "Senior Software Engineer",
       "url": "https://www.aviar.nl/",
       "startDate": "2023-12-01",
       "endDate": "",
-      "summary": "Aviation VR Training & Simulation. Architecting interactive VR training scenarios for enterprise clients including Lufthansa, Swissport, and DHL.",
+      "summary": "Training & Simulation Software for enterprise aviation clients including Lufthansa, Swissport, and DHL.",
       "highlights": [
-        "Architected and delivered 10+ interactive VR training scenarios using Unity 6, URP, and DOTS/ECS architecture",
-        "Engineered custom inverse kinematics (IK) systems for Highloader lift mechanisms and implemented Contacts Modification API for realistic belt conveyor physics",
-        "Developed rope/cable/hose simulations using Obi Physics for cargo securing operations with intersection detection and knot creation",
-        "Built custom action-based behavior tree framework integrated with DOTS/ECS for NPC drivers and autonomous vehicles with NavMesh navigation",
-        "Industry First: Reverse-engineered USB HID protocols and developed Java-Unity driver plugin, delivering first standalone VR headset with native force feedback steering wheel support—eliminating €1,000+ PC requirement per training station",
-        "Implemented motion sickness mitigation (camera vignetting, visual anchoring, velocity constraints) maintaining 72-90 FPS across Meta Quest and PICO platforms"
+        "Lead a team of 5 developers: architectural decisions, technical direction, and code review",
+        "Designed and delivered 10+ interactive training scenarios for enterprise clients (Lufthansa, Swissport, DHL) using Unity 6, URP, and DOTS/ECS architecture",
+        "Architected host-authoritative state replication over LiteNetLib with a custom binary protocol: the instructor station runs zero simulation and rebuilds rendering, audio, and UI from keyframe and delta encoded snapshots, with late-join and reconnect support",
+        "Shipped desktop, mobile (Android/iOS), and WebGL clients from a single codebase, adapting the custom DOTS world bootstrap to each target runtime",
+        "Integrated REST API and Web API services for real-time analytics, online licensing verification, and third-party platform connectivity; designed PostgreSQL schemas for training session data and user management",
+        "Cut VR frame time from 18ms to 13ms on Meta Quest standalone hardware, combining LOD group redesign with foveated rendering and Asynchronous Spacewarp to hold stable 72 FPS",
+        "Built an AI-assisted development pipeline on Claude API: 3 MCP servers validate agent-generated code against compilation results, Unity console logs, NUnit tests, and StyleCop static analysis across a codebase of 50k indexed symbols",
+        "Implemented Firebase Analytics for user activity tracking; identified underutilized features and shifted development focus accordingly, reducing wasted engineering effort on low-impact functionality",
+        "Wrote unit and integration tests using xUnit and NUnit, validating simulation logic and core system behavior",
+        "Designed cross-platform plugin architecture bridging Java and C# via Android NDK; reverse-engineered USB HID protocol to enable native force feedback device support, eliminating EUR 1,000+ per-station hardware dependency",
+        "Built custom action-based behavior tree framework integrated with DOTS/ECS for autonomous NPC agents and vehicles with NavMesh navigation",
+        "Engineered custom inverse kinematics (IK) systems and Contacts Modification API for physics-based mechanical simulations"
       ]
     },
     {
@@ -50,13 +56,15 @@
       "url": "https://promvr.net/",
       "startDate": "2023-05-01",
       "endDate": "2023-12-01",
-      "summary": "Industrial VR Safety Training. Led development of VR training platform serving major oil & gas companies.",
+      "summary": "Industrial Safety Training Software for major oil and gas industry clients.",
       "highlights": [
-        "Led development of VR training platform serving major oil & gas companies, delivering 12 safety compliance modules including work at heights, fire safety, and hazard detection",
-        "Architected unified codebase consolidating 12 independent simulators using Zenject dependency injection, enabling modular product delivery",
-        "Built comprehensive licensing system with online/offline verification through Bitrix24 CRM integration, protecting revenue through anti-piracy measures",
-        "Created automated CI/CD build pipeline supporting multi-platform compilation (Meta Quest, PICO, PCVR) on dedicated build machine",
-        "Developed JSON-based scenario configuration system with runtime loading, enabling non-technical staff to create training content"
+        "Led a cross-functional team of 4 developers and 2 designers; managed task distribution, code reviews, and technical decision-making across the full project lifecycle",
+        "Architected unified codebase consolidating 12 independent simulator products using Zenject dependency injection, enabling modular multi-client delivery from a single codebase",
+        "Built automated CI/CD pipeline supporting multi-platform compilation on a dedicated build machine, reducing manual build effort and deployment errors",
+        "Designed and implemented a licensing system with online/offline verification via REST API integration with Bitrix24 CRM; PostgreSQL for license and user data management",
+        "Developed JSON-based scenario configuration system with runtime loading, enabling non-technical staff to author training content without code changes",
+        "Led delivery of 12 safety compliance training modules for major oil and gas industry clients",
+        "Conducted code reviews and enforced coding standards across the team within Agile workflow"
       ]
     },
     {
@@ -65,13 +73,12 @@
       "url": "https://www.ultra.vc/",
       "startDate": "2022-10-01",
       "endDate": "2023-05-01",
-      "summary": "VR Game Development. Single-handedly developed VR roguelike tower defense shooter from concept to Meta Quest AppLab release.",
+      "summary": "Interactive Software & Game Development. Shipped a complete VR roguelike tower defense game as sole developer, from concept to public release.",
       "highlights": [
-        "Single-handedly developed VR roguelike tower defense shooter from concept to Meta Quest AppLab release, achieving 10K+ downloads",
-        "Architected full ECS implementation managing hundreds of simultaneous enemies and projectiles at 72 FPS on Meta Quest 2 using Burst Compiler and C# Job System",
-        "Implemented custom Boids algorithm for coordinated swarm AI movement patterns with ECS-based pathfinding",
-        "Conducted 150+ playtests with analytics pipeline tracking retention, session length, and difficulty spikes; iteratively refined UX based on quantitative metrics",
-        "Advised internal teams on VR best practices; contributed prototype work for Ultra Boxing VR"
+        "Led all engineering as the sole developer in a cross-functional team (level design, sound, QA, community management), shipping a complete roguelike tower defense game from concept to public release with 10K+ downloads",
+        "Architected full ECS implementation managing hundreds of simultaneous entities at 72 FPS using Burst Compiler and C# Job System",
+        "Implemented custom Boids algorithm for coordinated swarm AI movement with ECS-based pathfinding",
+        "Built analytics pipeline tracking 150+ playtest sessions (retention, session length, difficulty spikes); iteratively refined UX based on quantitative metrics"
       ]
     },
     {
@@ -80,40 +87,39 @@
       "url": "https://varwin.com/en/",
       "startDate": "2021-08-01",
       "endDate": "2022-08-01",
-      "summary": "Enterprise VR Platform. Developed visual programming components and delivered client projects for 90+ enterprise clients across 24 countries.",
+      "summary": "Enterprise Simulation Platform serving 90+ enterprise clients across 24 countries.",
       "highlights": [
-        "Developed 40+ Blockly visual programming blocks integrated with Unity backend, expanding platform standard library by 25% for 90+ enterprise clients across 24 countries",
-        "Built VR eye-tracking retail analytics application for Jacobs (JDE) with heatmap visualization and Excel-based shelf layout generation",
-        "Optimized client scenes for standalone VR deployment, improving frame rates from 72 FPS to 90 FPS through profiling, draw call reduction, and LOD implementation",
-        "Delivered 4 major client projects: Russian Railways track maintenance simulator, Naval Museum 360° virtual tour, Auchan retail shopping simulation",
-        "Authored 100+ pages SDK documentation for public developer portal covering API reference, architecture patterns, and development workflows"
-      ]
-    },
-    {
-      "name": "RobotrackRus",
-      "position": "Curriculum Designer & Programming Instructor",
-      "url": "https://robotrack-rus.ru/en/",
-      "startDate": "2019-01-01",
-      "endDate": "2021-08-01",
-      "summary": "Designed and delivered programming and robotics courses for children and teenagers (ages 6–17), covering four distinct tracks tailored to different age groups and skill levels.\nMentored students at regional robotics competitions and off-site events.",
-      "highlights": [
-        "Arduino robotics (ages 12–16): developed a full course curriculum around a 4WD Bluetooth robot platform (Keyestudio), including hardware assembly, C++ programming, and autonomous behavior design.",
-        "Java game development (ages 14–17): built a course from scratch with custom lesson plans and a lightweight 2D game engine written specifically for teaching OOP concepts. Course materials available on GitHub.",
-        "Scratch game design (ages 6–12): created an immersive curriculum introducing students to game industry roles - pixel art, level design, sound effects, and game design fundamentals.",
-        "LEGO Mindstorms (ages 6–12): hands-on robotics sessions combining physical building with visual programming."
+        "Designed and implemented 40+ API extensions for a visual programming SDK (Blockly + Unity backend), expanding the platform library by 25% for 90+ enterprise clients across 24 countries",
+        "Built retail analytics application with REST API data ingestion, heatmap visualization, PostgreSQL storage, and Excel-based reporting for Jacobs (JDE)",
+        "Optimized client application performance from 72 to 90 FPS through profiling, draw call reduction, and LOD implementation",
+        "Delivered 4 major client projects: railway maintenance simulator, Naval Museum 360-degree virtual tour, Auchan retail shopping simulation",
+        "Authored 100+ page SDK documentation for public developer portal covering API reference, architecture patterns, and development workflows"
       ]
     },
     {
       "name": "Freelance",
-      "position": "Python Developer (Computer Vision)",
+      "position": "Software Developer (Computer Vision & Robotics)",
       "url": "https://rent-robot.ru/",
       "startDate": "2018-06-01",
       "endDate": "2021-08-01",
-      "summary": "Computer Vision and IoT Development",
+      "summary": "Computer vision and robotics development on Linux.",
       "highlights": [
-        "Developed facial-recognition software for access control used in 100+ public schools",
-        "Created computer-vision modules for robots and interactive animatronics",
-        "Built smart devices with ROS for Arduino, Raspberry Pi, and ESP32"
+        "Developed robotic arm manipulation system for autonomous checkers gameplay",
+        "Built a CV-based automated security surveillance system",
+        "Created remote control systems for mobile robots",
+        "Stack: Python, ROS, SQLite, Arduino, Raspberry Pi, ESP32"
+      ]
+    },
+    {
+      "name": "RobotrackRus",
+      "position": "Programming Instructor",
+      "url": "https://robotrack-rus.ru/en/",
+      "startDate": "2019-01-01",
+      "endDate": "2021-08-01",
+      "summary": "Designed and delivered Java and Python development courses for high school and university students; mentored students through building complete projects from scratch.",
+      "highlights": [
+        "Designed and delivered Java and Python development courses for high school and university students",
+        "Mentored students through building complete projects from scratch, including a custom lightweight 2D Java game engine (SKENGINE) written specifically for teaching OOP concepts"
       ]
     },
     {
@@ -141,6 +147,17 @@
       "endDate": "2020-04-01",
       "score": "",
       "courses": []
+    },
+    {
+      "institution": "Tokyo Nihongo Gakuin",
+      "location": "Saitama, Japan",
+      "url": "",
+      "area": "Japanese Language",
+      "studyType": "Language Studies",
+      "startDate": "2024-10-01",
+      "endDate": "",
+      "score": "",
+      "courses": []
     }
   ],
   "awards": [],
@@ -155,27 +172,82 @@
         "C# (6 years)",
         "Python",
         "Java",
-        "JavaScript"
+        "JavaScript",
+        "SQL"
       ]
     },
     {
-      "name": "Game Engines",
+      "name": "Architecture",
+      "level": "Advanced",
+      "icon": "fa-solid fa-sitemap",
+      "keywords": [
+        "SOLID Principles",
+        "Design Patterns",
+        "Object-Oriented Programming (OOP)",
+        "ECS (Entity Component System)",
+        "DOTS (Data-Oriented Technology Stack)",
+        "Dependency Injection",
+        "Behavior Trees",
+        "Data-Driven Design",
+        "Multithreading",
+        "Asynchronous Programming (async/await)",
+        "REST API",
+        "Web API",
+        "WebSocket"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "level": "Advanced",
+      "icon": "fa-solid fa-layer-group",
+      "keywords": [
+        ".NET",
+        "ASP.NET Core",
+        "Entity Framework",
+        "LINQ",
+        "xUnit",
+        "NUnit",
+        "RabbitMQ",
+        "Zenject",
+        "UniRx",
+        "Photon Networking",
+        "LiteNetLib",
+        "ROS",
+        "FMOD",
+        "Obi Physics"
+      ]
+    },
+    {
+      "name": "AI & LLM",
+      "level": "Advanced",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "Claude API",
+        "MCP (Model Context Protocol)",
+        "Prompt Engineering",
+        "RAG",
+        "Agentic Workflows",
+        "Voice Pipelines (ASR/TTS)"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Advanced",
+      "icon": "fa-solid fa-database",
+      "keywords": [
+        "PostgreSQL",
+        "SQLite"
+      ]
+    },
+    {
+      "name": "Game & Simulation",
       "level": "Expert",
       "icon": "fa-solid fa-gamepad",
       "keywords": [
         "Unity 3D",
         "Unity 6",
         "URP",
-        "HDRP"
-      ]
-    },
-    {
-      "name": "Unity Advanced",
-      "level": "Expert",
-      "icon": "fa-solid fa-cube",
-      "keywords": [
-        "ECS (Entity Component System)",
-        "DOTS (Data-Oriented Technology Stack)",
+        "HDRP",
         "Burst Compiler",
         "C# Job System",
         "Unity Physics",
@@ -185,58 +257,33 @@
       ]
     },
     {
-      "name": "VR/XR Platforms",
-      "level": "Expert",
-      "icon": "fa-solid fa-vr-cardboard",
+      "name": "Platforms & SDKs",
+      "level": "Advanced",
+      "icon": "fa-solid fa-server",
       "keywords": [
-        "Meta Quest SDK",
+        "AWS",
+        "Android NDK",
         "OpenXR",
+        "Meta Quest SDK",
         "PICO SDK",
         "SteamVR",
-        "Oculus SDK",
-        "Android NDK"
+        "Linux",
+        "Windows"
       ]
     },
     {
-      "name": "Specialized",
-      "level": "Advanced",
-      "icon": "fa-solid fa-cogs",
-      "keywords": [
-        "Obi Physics",
-        "Custom IK Systems",
-        "NavMesh",
-        "Behavior Trees",
-        "FMOD",
-        "Photon Networking",
-        "Multiplayer Systems"
-      ]
-    },
-    {
-      "name": "Architecture",
-      "level": "Advanced",
-      "icon": "fa-solid fa-sitemap",
-      "keywords": [
-        "Dependency Injection (DI)",
-        "Zenject",
-        "UniRx",
-        "Object-Oriented Programming (OOP)",
-        "Design Patterns",
-        "SOLID Principles"
-      ]
-    },
-    {
-      "name": "Tools",
+      "name": "Tools & DevOps",
       "level": "Advanced",
       "icon": "fa-solid fa-tools",
       "keywords": [
         "Git",
         "Perforce",
+        "CI/CD Pipelines",
+        "Agile",
+        "Scrum",
         "Jira",
         "Confluence",
-        "Unity Profiler",
-        "OVR Metrics Tool",
-        "Visual Studio",
-        "JetBrains Rider"
+        "Unity Profiler"
       ]
     }
   ],
@@ -248,7 +295,7 @@
     },
     {
       "language": "Japanese",
-      "fluency": "N3 Conversational (currently studying)",
+      "fluency": "N4 Conversational (currently studying)",
       "icon": ""
     },
     {
@@ -283,6 +330,19 @@
   "references": [],
   "projects": [
     {
+      "name": "SKENGINE",
+      "summary": "Built a full-featured 2D game engine from scratch using only standard Java APIs (no external libraries). Implements: software rendering pipeline, entity-component system, scene management, collision detection, 2D animation with buffering, input handling, asset loading, and audio. Designed as the primary teaching tool for \"Java for Beginners\" programming course for high school and university students; students built complete space-shooter games on the engine.",
+      "highlights": [
+        "Java",
+        "Game Engine",
+        "Software Rendering",
+        "Graphics Programming"
+      ],
+      "startDate": "",
+      "endDate": "",
+      "url": "https://github.com/Skaper/SKENGINE"
+    },
+    {
       "name": "reAbell VR Alpha",
       "summary": "Space action shooter for Meta Quest. Developed using Unity and C# with VR-optimized gameplay mechanics and controls.",
       "highlights": [
@@ -293,7 +353,7 @@
       ],
       "startDate": "",
       "endDate": "",
-      "url": "https://sidequestvr.com/app/4446/reabell-alpha"
+      "url": "https://www.meta.com/experiences/6521195701244535"
     },
     {
       "name": "JANKERMAN",
@@ -307,7 +367,7 @@
       ],
       "startDate": "",
       "endDate": "",
-      "url": "https://www.meta.com/experiences/6521195701244535"
+      "url": "https://skaperdev.itch.io/jankerman"
     },
     {
       "name": "Candy Jump",
@@ -321,19 +381,6 @@
       "startDate": "",
       "endDate": "",
       "url": "https://play.google.com/store/apps/details?id=com.skaper.candyjump"
-    },
-    {
-      "name": "SKENGINE",
-      "summary": "Custom 2D Java game engine with software rendering. Built from scratch to understand low-level graphics programming and engine architecture.",
-      "highlights": [
-        "Java",
-        "Game Engine",
-        "Software Rendering",
-        "Graphics Programming"
-      ],
-      "startDate": "",
-      "endDate": "",
-      "url": "https://github.com/Skaper/SKENGINE"
     }
   ]
 }
