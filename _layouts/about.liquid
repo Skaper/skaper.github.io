@@ -48,6 +48,12 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
+    <!-- Released games -->
+    {% if page.games and page.games.enabled %}
+      <h2>released games</h2>
+      {% include games_list.liquid %}
+    {% endif %}
+
     <!-- Projects -->
     {% if page.projects and page.projects.enabled %}
       <h2>

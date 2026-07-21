@@ -1,0 +1,32 @@
+<div class="games-list">
+  {% for game in site.data.games %}
+    <div class="game-card">
+      <div class="game-card-body">
+        <h3 class="game-card-title">{{ game.title }}</h3>
+        <p class="game-card-text">{{ game.description }}</p>
+        {% if game.tags %}
+          <div class="game-card-tags">
+            {% for tag in game.tags %}
+              <span class="game-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+        {% if game.links %}
+          <div class="game-card-links">
+            {% for link in game.links %}
+              <a class="game-platform-link" href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
+                {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
+                <span>{{ link.name }}</span>
+              </a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+      {% if game.img %}
+        <div class="game-card-img">
+          {% include figure.liquid loading="eager" path=game.img sizes="(min-width: 768px) 320px, 100vw" class="game-img" alt=game.title %}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
