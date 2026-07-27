@@ -2,19 +2,20 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Software Developer # the website title (if blank, full name will be used instead)
+title: Daniil Rostovskii — Software Engineer # the website title (if blank, full name will be used instead)
 first_name: Daniil
 middle_name:
 last_name: Rostovskii
 contact_note: >
 
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+# NOTE: keep this on one line. A folded ">" block appends a newline, which ends up inside
+# the Schema.org JSON-LD string and makes it invalid JSON.
+description: "Daniil Rostovskii — software engineer in Tokyo. C#/.NET, real-time networked systems, ECS/DOTS simulation, backend and robotics. Senior Engineer at AVIAR."
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Daniil Rostovskii, software engineer, C#, .NET, Unity, DOTS, ECS, real-time systems, multiplayer networking, VR simulation, backend, PostgreSQL, robotics, ROS, Tokyo # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -64,9 +65,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://skaper.github.io/assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

@@ -3,7 +3,7 @@
     "name": "Daniil Rostovskii",
     "label": "Software Engineer | C# | Unity | Python",
     "image": "",
-    "email": "skaper.rtt@gmail.com",
+    "email": "rostovskii.daniil@gmail.com",
     "phone": "+81 70-8510-5939",
     "url": "https://skaper.github.io",
     "summary": "Software Engineer with 6 years designing and delivering complex interactive systems across simulation, game development, and robotics domains. Strong expertise in C# software architecture (ECS/DOTS, Dependency Injection, SOLID principles), REST API integration, database design, and enterprise B2B delivery. Shipped production systems for Lufthansa, Swissport, and DHL; built AI-assisted development tooling on Claude API and MCP; developed computer vision pipelines for robotics on Linux; built and taught with a custom Java game engine. Experienced with .NET, Entity Framework, PostgreSQL, Python, Java, and Unity. Open to C#/.NET, game development, and systems engineering roles.",
@@ -330,6 +330,48 @@
   "references": [],
   "projects": [
     {
+      "name": "Airport Ground Handling Simulator VR",
+      "summary": "Commercial VR title released on Steam, built on AVIAR's professional aviation training technology: marshal an aircraft in, connect ground support equipment, and run a full turnaround across five realistic scenarios.",
+      "highlights": [
+        "Steam",
+        "Unity",
+        "C#",
+        "VR Simulation",
+        "Commercial Release"
+      ],
+      "startDate": "",
+      "endDate": "",
+      "url": "https://store.steampowered.com/app/2088630/Airport_Ground_Handling_Simulator_VR/"
+    },
+    {
+      "name": "Airline Flight Attendant Simulator VR",
+      "summary": "Commercial VR title released on Steam: cabin crew emergency-procedure training turned consumer game, covering depressurization, onboard fires, and water ditching drills at professional-simulator fidelity.",
+      "highlights": [
+        "Steam",
+        "Unity",
+        "C#",
+        "VR Simulation",
+        "Commercial Release"
+      ],
+      "startDate": "",
+      "endDate": "",
+      "url": "https://store.steampowered.com/app/2152560/Airline_Flight_Attendant_Simulator_VR/"
+    },
+    {
+      "name": "Tiny Survivor",
+      "summary": "Browser-based auto-attacking roguelike (Vampire Survivors-like) built in Unity and shipped as WebGL, running on desktop and mobile browsers with no install. Released on Yandex Games. Built a platform-agnostic monetization layer where Yandex Games, Facebook Instant Games, VK, and itch.io sit behind a single interface, and a localStorage save system via a custom .jslib plugin to survive changing build URLs.",
+      "highlights": [
+        "Unity WebGL",
+        "C#",
+        "JavaScript Interop",
+        "Yandex Games SDK",
+        "Roguelike"
+      ],
+      "startDate": "",
+      "endDate": "",
+      "url": "https://skaperdev.itch.io/tiny-survivor"
+    },
+    {
       "name": "SKENGINE",
       "summary": "Built a full-featured 2D game engine from scratch using only standard Java APIs (no external libraries). Implements: software rendering pipeline, entity-component system, scene management, collision detection, 2D animation with buffering, input handling, asset loading, and audio. Designed as the primary teaching tool for \"Java for Beginners\" programming course for high school and university students; students built complete space-shooter games on the engine.",
       "highlights": [
@@ -344,20 +386,21 @@
     },
     {
       "name": "reAbell VR Alpha",
-      "summary": "Space action shooter for Meta Quest. Developed using Unity and C# with VR-optimized gameplay mechanics and controls.",
+      "summary": "Space action shooter for Meta Quest, solo-developed over 6 months. Started on Android/Google Cardboard and ported to Quest 2. Custom artificial-gravity physics let the player walk on walls and ceilings.",
       "highlights": [
         "Meta Quest",
         "Unity",
         "C#",
-        "VR Shooter"
+        "VR Shooter",
+        "Custom Physics"
       ],
       "startDate": "",
       "endDate": "",
-      "url": "https://www.meta.com/experiences/6521195701244535"
+      "url": "https://skaperdev.itch.io/reabell"
     },
     {
       "name": "JANKERMAN",
-      "summary": "VR shooter/tower-defense roguelike for Oculus Quest 2. Features procedural generation, swarm AI, and roguelike progression systems.",
+      "summary": "VR shooter/tower-defense roguelike for Meta Quest 2, released on Meta Quest AppLab (https://www.meta.com/experiences/app/6521195701244535/) and itch.io with 10K+ downloads. Built on full DOTS/ECS with procedural generation, custom Boids swarm AI, and roguelike progression systems.",
       "highlights": [
         "Oculus Quest 2",
         "Unity",
@@ -380,7 +423,7 @@
       ],
       "startDate": "",
       "endDate": "",
-      "url": "https://play.google.com/store/apps/details?id=com.skaper.candyjump"
+      "url": ""
     }
   ]
 }

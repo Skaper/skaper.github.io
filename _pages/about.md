@@ -28,7 +28,7 @@ projects:
 ---
 
 ## DANIIL ROSTOVSKII
-Software engineer with 5+ years building real-time interactive systems — games, VR training platforms, robotics. The kind of software where a missed frame is a bug and the hardware budget is fixed. **Based in Tokyo, Japan**.
+Software engineer with 6 years building real-time interactive systems — games, VR training platforms, robotics. The kind of software where a missed frame is a bug and the hardware budget is fixed. **Based in Tokyo, Japan**.
 
 What I've shipped:
 

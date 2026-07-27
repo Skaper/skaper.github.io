@@ -59,4 +59,42 @@ $(document).ready(function () {
   $('[data-toggle="popover"]').popover({
     trigger: "hover",
   });
+
+  // email icon: a bare mailto: silently does nothing when no mail client is
+  // registered, so also copy the address to the clipboard and say so.
+  // The href stays percent-encoded (jekyll-email-protect) and is decoded here,
+  // so the address is still not sitting in the markup as plain text.
+  $("a.email-link").on("click", function () {
+    const address = decodeURIComponent($(this).attr("href").replace(/^mailto:/, ""));
+
+    const notify = function (message) {
+      $(".email-toast").remove();
+      const $toast = $('<div class="email-toast" role="status"></div>').text(message);
+      $("body").append($toast);
+      // let the element land in the DOM before transitioning it in
+      window.requestAnimationFrame(function () {
+        $toast.addClass("visible");
+      });
+      window.setTimeout(function () {
+        $toast.removeClass("visible");
+        window.setTimeout(function () {
+          $toast.remove();
+        }, 300);
+      }, 2600);
+    };
+
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(address).then(
+        function () {
+          notify(address + " copied to clipboard");
+        },
+        function () {
+          notify(address);
+        }
+      );
+    } else {
+      notify(address);
+    }
+    // no preventDefault: mail clients that are registered still open normally
+  });
 });

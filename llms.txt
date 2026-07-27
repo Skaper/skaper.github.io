@@ -1,0 +1,73 @@
+# Daniil Rostovskii (Skaper) — Software Engineer
+
+> Software engineer with 6 years of production delivery across simulation, backend,
+> robotics and developer tooling, working professionally since 2016. Works primarily in
+> C#/.NET: real-time networked systems with custom binary protocols, ASP.NET Core and
+> PostgreSQL services, ECS/DOTS data-oriented architecture, and AI-assisted development
+> pipelines built on the Claude API and MCP. Also ships Python computer-vision and ROS
+> robotics work, WebGL browser games, and wrote a complete 2D game engine in plain Java
+> used to teach programming. Currently Senior Software Engineer at AVIAR (Netherlands),
+> leading a team of 5, delivering systems for Lufthansa, Swissport and DHL. Based in
+> Tokyo, Japan; English C1, Japanese N4, Russian native. Open to C#/.NET, systems
+> engineering, and game/simulation roles.
+
+## Profile
+
+- [Full context bundle](https://skaper.github.io/llms-full.txt): complete background, per-role detail, skills, education and contact in one file — read this first
+- [Full CV](https://skaper.github.io/cv/): roles, stack, measured outcomes, education, languages
+- [Home / about](https://skaper.github.io/): summary, shipped titles, current focus
+- [All projects](https://skaper.github.io/projects/): index of work and personal project write-ups
+- [Repositories](https://skaper.github.io/repositories/): public GitHub work
+
+## Work — engineering case studies
+
+- [AVIAR — aviation training platform](https://skaper.github.io/projects/aviar_project.html): 10+ VR training scenarios for Lufthansa, Swissport and DHL on Unity 6 / URP / DOTS-Entities; AI-driven ground vehicles on a custom behavior-tree framework, Obi physics, Contacts Modification API, inverse kinematics; leads a team of 5
+- [Reverse engineering gaming steering wheels](https://skaper.github.io/projects/aviar_wheel_project.html): undocumented Logitech/Thrustmaster USB HID protocols decoded with Wireshark and Python tooling, then reimplemented as a native Android driver with force feedback over JNI — made Meta Quest the first standalone headset with native wheel support and removed a EUR 1,000+ PC per training station
+- [PromVR — industrial safety training](https://skaper.github.io/projects/promvr_project.html): 12 independent simulator products consolidated into one Zenject-based codebase; licensing with online and offline verification over REST + Bitrix24 CRM; JSON scenario system letting non-engineers author content; automated multi-platform CI/CD
+- [Ultralab — JankerMan](https://skaper.github.io/projects/ultralab_project.html): solo-developed VR roguelike shooter/tower-defense on full DOTS/ECS, hundreds of concurrent entities at 72 FPS on Quest 2 via Burst and the C# Job System; custom Boids swarm AI; 150+ playtest sessions driving design iteration
+- [Varwin — no-code XR platform](https://skaper.github.io/projects/varwin_project.html): 40+ Blockly visual-programming blocks (+25% standard library) for a platform serving 90+ enterprise clients in 24 countries; Electron/IPC tooling; retail analytics with heatmaps and PostgreSQL; 100+ pages of public SDK documentation
+
+## Shipped products
+
+- [Airport Ground Handling Simulator VR](https://store.steampowered.com/app/2088630/Airport_Ground_Handling_Simulator_VR/): commercial Steam release built on AVIAR's professional aviation training technology — full aircraft turnaround across five scenarios
+- [Airline Flight Attendant Simulator VR](https://store.steampowered.com/app/2152560/Airline_Flight_Attendant_Simulator_VR/): commercial Steam release — emergency-procedure cabin crew training (depressurization, onboard fire, water ditching)
+- [JankerMan on Meta Quest AppLab](https://www.meta.com/experiences/app/6521195701244535/): VR roguelike shooter/tower-defense, also on [itch.io](https://skaperdev.itch.io/jankerman)
+- [Tiny Survivor](https://skaperdev.itch.io/tiny-survivor): browser roguelike in Unity WebGL, shipped on Yandex Games, playable on desktop and mobile with no install
+- [reAbell VR Alpha](https://skaperdev.itch.io/reabell): space action shooter for Meta Quest with custom artificial-gravity physics
+
+## Personal engineering projects
+
+- [Tiny Survivor — write-up](https://skaper.github.io/projects/tinysurvivor_project.html): platform-agnostic monetization adapters behind one interface (Yandex Games, Facebook Instant Games, VK, itch.io), a localStorage save layer through a custom `.jslib` plugin after IndexedDB saves kept getting wiped by URL changes, adaptive quality holding playable framerates on low-end phones; [source](https://github.com/Skaper/BlockSurvivor)
+- [reAbell — write-up](https://skaper.github.io/projects/reabell_project.html): solo 6-month VR project with custom gravity physics letting the player walk on walls and ceilings; started on Google Cardboard, ported to Quest 2
+- [InMoov humanoid robot](https://skaper.github.io/projects/inmoov_project.html): full Python/ROS/OpenCV stack for an open-source life-size humanoid — face and emotion recognition, object tracking, speech, inverse kinematics for arms, head and torso, PID joint control, and a visual scenario editor; performed at 10+ live robotic theater events
+- [Full-scale R2-D2 replica](https://skaper.github.io/projects/r2d2_project.html): built from scratch without blueprints; Python/PyQt operator station driving movement, dome rotation, panels, lighting and sound over a Wi-Fi A/V link with MJPEG streaming, Arduino and Raspberry Pi; performed at 10+ events
+- [SKENGINE — 2D game engine in pure Java](https://github.com/Skaper/SKENGINE): software rendering pipeline, entity-component system, scene management, collision detection, animation and audio, using only standard Java APIs — no external libraries
+- [RMC Studio](https://github.com/Skaper/RMCStudio): visual scenario editor and robot control software behind the InMoov and R2-D2 builds
+
+## Teaching
+
+- [Robotrek — programming and robotics instructor](https://skaper.github.io/projects/robotrek_project.html): two years teaching ages 6–17 across a 100+ school network; three original courses designed from scratch — Scratch game design, a 30-lesson Java game development course built on SKENGINE, and a 20-lesson Arduino course
+- [Java course materials](https://github.com/Skaper/java_lessons): lesson materials for the Java course students shipped complete games on
+
+## Engineering domains
+
+Each domain links to the page that documents it in depth.
+
+- Distributed and real-time systems — host-authoritative state replication over LiteNetLib with a custom binary protocol, keyframe and delta snapshot encoding, late-join and reconnect: [AVIAR](https://skaper.github.io/projects/aviar_project.html), [CV](https://skaper.github.io/cv/)
+- Backend and data — ASP.NET Core, Entity Framework, REST/Web API design, PostgreSQL schemas for session and licensing data, online/offline license verification, CRM integration: [PromVR](https://skaper.github.io/projects/promvr_project.html), [Varwin](https://skaper.github.io/projects/varwin_project.html)
+- AI and developer tooling — a pipeline on the Claude API where 3 MCP servers validate agent-generated code against compiler output, runtime logs, NUnit tests and StyleCop across 50k indexed symbols: [CV](https://skaper.github.io/cv/)
+- Computer vision and robotics — Python/ROS/OpenCV on Linux, inverse kinematics, PID control, Arduino/Raspberry Pi/ESP32 hardware: [InMoov](https://skaper.github.io/projects/inmoov_project.html), [R2-D2](https://skaper.github.io/projects/r2d2_project.html)
+- Performance and graphics — 18 ms to 13 ms frame time on Meta Quest standalone via LOD redesign, foveated rendering and Asynchronous Spacewarp; Burst Compiler and C# Job System; hundreds of concurrent ECS entities at 72 FPS: [JankerMan](https://skaper.github.io/projects/ultralab_project.html), [AVIAR](https://skaper.github.io/projects/aviar_project.html)
+- Low-level and cross-platform — Java↔C# bridge via Android NDK/JNI, USB HID protocol reverse-engineered for native force-feedback support, single codebase shipping desktop, Android, iOS and WebGL: [steering wheel driver](https://skaper.github.io/projects/aviar_wheel_project.html), [Tiny Survivor](https://skaper.github.io/projects/tinysurvivor_project.html)
+
+## Contact
+
+- Email: <rostovskii.daniil@gmail.com>
+- [LinkedIn](https://www.linkedin.com/in/daniil-rostovskii-99457a149)
+- [GitHub](https://github.com/Skaper)
+- Location: Tokyo, Japan (JST, UTC+9). Open to remote and relocation.
+
+## Optional
+
+- [itch.io profile](https://skaperdev.itch.io/): published game builds
+- [Varwin SDK documentation](https://skaper.github.io/projects/varwin_project.html): 100+ pages of public developer documentation authored for the platform

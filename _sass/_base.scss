@@ -569,6 +569,32 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Feedback shown when the email icon copies the address to the clipboard.
+.email-toast {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  z-index: 1080;
+  padding: 0.6rem 1.1rem;
+  transform: translate(-50%, 1rem);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  background-color: var(--global-card-bg-color);
+  color: var(--global-text-color);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+  font-size: 0.85rem;
+  opacity: 0;
+  transition:
+    opacity 0.25s ease-in-out,
+    transform 0.25s ease-in-out;
+  pointer-events: none;
+
+  &.visible {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
 .wechat-modal {
   display: none;
   position: fixed;
