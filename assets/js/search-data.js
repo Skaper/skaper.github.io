@@ -85,7 +85,14 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%73%6B%61%70%65%72.%72%74%74@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%72%6F%73%74%6F%76%73%6B%69%69.%64%61%6E%69%69%6C@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/Skaper", "_blank");
         },
       },{
         id: 'social-linkedin',

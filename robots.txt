@@ -1,4 +1,84 @@
-User-agent: *
-Disallow:
+# robots.txt for skaper.github.io
+# Goal: maximum discoverability. This is a professional portfolio — being read,
+# indexed and cited by both search engines and AI assistants is the entire point.
+#
+# Curated index for AI agents: https://skaper.github.io/llms.txt
+# Full context bundle:        https://skaper.github.io/llms-full.txt
 
+# ---------------------------------------------------------------------------
+# Default: everything open
+# ---------------------------------------------------------------------------
+User-agent: *
+Allow: /
+
+# ---------------------------------------------------------------------------
+# AI search / retrieval crawlers — these build the indexes behind cited answers.
+# Blocking these removes you from ChatGPT Search, Claude retrieval and Perplexity
+# answers. Explicitly allowed.
+# ---------------------------------------------------------------------------
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: Google-Agent
+Allow: /
+
+User-agent: Google-NotebookLM
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+# ---------------------------------------------------------------------------
+# Training crawlers. Allowed on purpose: for a personal portfolio, being part of
+# what a model knows about you is an asset, not a leak. Flip any of these to
+# Disallow: / if you change your mind.
+# ---------------------------------------------------------------------------
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# ---------------------------------------------------------------------------
+# Sitemaps
+# ---------------------------------------------------------------------------
 Sitemap: https://skaper.github.io/sitemap.xml
