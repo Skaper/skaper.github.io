@@ -65,6 +65,11 @@ ninja.data = [{
           description: "Curriculum Designer &amp; Instructor",
           section: "Projects",handler: () => {
               window.location.href = "/projects/robotrek_project.html";
+            },},{id: "projects-skyovernet-a-physical-avatar-for-twitch",
+          title: 'Skyovernet: A Physical Avatar for Twitch',
+          description: "A Physical Avatar for Twitch",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/skyovernet_project.html";
             },},{id: "projects-tiny-survivor-browser-roguelike-for-web-game-platforms",
           title: 'Tiny Survivor - Browser Roguelike for Web Game Platforms',
           description: "Vampire Survivors-like built in Unity for WebGL and web game publishers",
