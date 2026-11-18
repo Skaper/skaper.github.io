@@ -1,0 +1,158 @@
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "about",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-resume-cv",
+          title: "resume (CV)",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
+        },{id: "projects-aviation-training-platform",
+          title: 'Aviation Training Platform',
+          description: "Senior Software Engineer at AVIAR",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/aviation_training_platform.html";
+            },},{id: "projects-inmoov-humanoid-robot-interactive-theater-system",
+          title: 'InMoov Humanoid Robot - Interactive Theater System',
+          description: "Full software stack for open-source humanoid robot used in live performances",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/inmoov_project.html";
+            },},{id: "projects-industrial-safety-training-solutions",
+          title: 'Industrial Safety Training Solutions',
+          description: "Lead Unity Developer",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/promvr_project.html";
+            },},{id: "projects-full-scale-r2-d2-replica-interactive-event-robot",
+          title: 'Full-Scale R2-D2 Replica - Interactive Event Robot',
+          description: "Real-time controlled entertainment robot for live events",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/r2d2_project.html";
+            },},{id: "projects-reabell-vr-space-game-development",
+          title: 'reAbell - VR Space Game Development',
+          description: "My first VR project",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/reabell_project.html";
+            },},{id: "projects-robotrek-programming-amp-robotics-instructor",
+          title: 'Robotrek - Programming &amp;amp; Robotics Instructor',
+          description: "Curriculum Designer &amp; Instructor",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/robotrek_project.html";
+            },},{id: "projects-skyovernet-a-physical-avatar-for-twitch",
+          title: 'Skyovernet: A Physical Avatar for Twitch',
+          description: "A Physical Avatar for Twitch",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/skyovernet_project.html";
+            },},{id: "projects-tiny-survivor-browser-roguelike-for-web-game-platforms",
+          title: 'Tiny Survivor - Browser Roguelike for Web Game Platforms',
+          description: "Vampire Survivors-like built in Unity for WebGL and web game publishers",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tinysurvivor_project.html";
+            },},{id: "projects-vr-roguelike-tower-defense-shooter",
+          title: 'VR Roguelike Tower Defense Shooter',
+          description: "Solo Unity Developer",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ultralab_project.html";
+            },},{id: "projects-varwin-no-code-game-development-platform",
+          title: 'Varwin - No-Code Game Development Platform',
+          description: "Middle Unity C# Developer",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/varwin_project.html";
+            },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%72%6F%73%74%6F%76%73%6B%69%69.%64%61%6E%69%69%6C@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/Skaper", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/daniil-rostovskii-99457a149", "_blank");
+        },
+      },{
+        id: 'social-telegram',
+        title: 'telegram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://telegram.me/skaper_ssd", "_blank");
+        },
+      },{
+        id: 'social-whatsapp',
+        title: 'whatsapp',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://wa.me/817085105939", "_blank");
+        },
+      },{
+        id: 'social-custom_social_line',
+        title: 'Custom_social_line',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://line.me/ti/p/ZpGhmwdJK2", "_blank");
+        },
+      },{
+        id: 'social-custom_social_itch',
+        title: 'Custom_social_itch',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://skaperdev.itch.io/", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
