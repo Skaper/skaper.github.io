@@ -1,0 +1,56 @@
+# Released games shown on the About page, before the "projects" block.
+- title: Airport Ground Handling Simulator VR
+  description: >-
+    VR simulator built from AVIAR's professional aviation training tech: marshal an aircraft in,
+    connect ground equipment, and run a full turnaround across five realistic scenarios.
+  img: assets/img/games/ground_handling.jpg
+  tags:
+    - VR
+    - Unity
+    - Simulation
+  links:
+    - name: Steam
+      icon: fa-brands fa-steam
+      url: https://store.steampowered.com/app/2088630/Airport_Ground_Handling_Simulator_VR/
+
+- title: Airline Flight Attendant Simulator VR
+  description: >-
+    Emergency-procedure VR training turned consumer game: depressurization, onboard fires, and
+    water ditching drills with the realism of a professional crew simulator.
+  img: assets/img/games/flight_attendant.jpg
+  tags:
+    - VR
+    - Unity
+    - Simulation
+  links:
+    - name: Steam
+      icon: fa-brands fa-steam
+      url: https://store.steampowered.com/app/2152560/Airline_Flight_Attendant_Simulator_VR/
+
+- title: JankerMan
+  description: >-
+    Solo-developed VR roguelike shooter on full Unity DOTS/ECS - hundreds of concurrent enemies
+    at 72 FPS on Meta Quest 2, data-oriented design, Burst and the Job System doing the heavy lifting.
+  img: assets/img/projects/ultralab/3.png
+  tags:
+    - VR
+    - DOTS/ECS
+    - Roguelike
+  links:
+    - name: Meta Quest
+      icon: fa-brands fa-meta
+      url: https://www.meta.com/experiences/jankerman-alpha/6521195701244535/
+
+- title: Tiny Survivor
+  description: >-
+    Browser-based auto-attacking roguelike (a Vampire Survivors-like) built in Unity for WebGL -
+    no install, playable on desktop and mobile, shipped on web game platforms.
+  img: assets/img/projects/tinysurvivor/cover.png
+  tags:
+    - WebGL
+    - Unity
+    - Roguelike
+  links:
+    - name: itch.io
+      icon: fa-brands fa-itch-io
+      url: https://skaperdev.itch.io/tiny-survivor

@@ -1,0 +1,19 @@
+_site
+.bundle
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+.DS_store
+.ruby-version
+.tweet-cache
+Gemfile.lock
+assets/libs/
+node_modules/
+vendor
+.idea
+/AI_README.md
+
+# AVIAR NDA: kept locally, not published
+_projects/aviar_project.md
+_projects/aviar_wheel_project.md
+assets/img/projects/aviar/diagram.png
